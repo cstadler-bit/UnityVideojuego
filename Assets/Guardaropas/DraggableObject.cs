@@ -9,8 +9,15 @@ public class DraggableObject : MonoBehaviour
     private bool isBeingCarried = false;
     private bool isBlinking = false; // Nos avisa si la campera está titilando en este momento
 
+    [Header("Configuración de Cercanía")]
+    [SerializeField] private float distanciaParaInteractuar = 1.5f; // Qué tan cerca tiene que estar el Player
+
+    [Header("Efecto de Apilado Multi-Campera")]
+    [SerializeField] private float separacionPorCampera = 0.25f; // Cuánto se desfasa hacia arriba cada campera nueva
+
     void Start()
     {
+        Debug.Log("start", gameObject);
         spriteRenderer = GetComponent<SpriteRenderer>();
 
         // Buscamos al objeto "Player" en la escena automáticamente usando su etiqueta
@@ -27,59 +34,89 @@ public class DraggableObject : MonoBehaviour
 
     void Update()
     {
-        // Si el personaje ya la agarró, se mueve pegada a él a donde sea que vayas con WASD
+        // Si el personaje ya la agarró, se mueve pegada a él
         if (isBeingCarried && playerTransform != null)
         {
-            // Podés cambiar estos números (X, Y) para acomodar la campera sobre el cuerpo de tu personaje
-            transform.position = playerTransform.position + new Vector3(0.2f, 0.1f, 0f);
+            // Contamos cuántas camperas ya tiene el jugador para calcular la altura de esta
+            int indiceApilado = ContarCamperasEnPlayer();
+
+            // Modificamos el eje Y multiplicándolo por su lugar en la pila
+            // Ej: la primera va a Y: 0.1, la segunda a Y: 0.35, la tercera a Y: 0.6...
+            float desplazamientoY = 0.1f + (indiceApilado * separacionPorCampera);
+
+            transform.position = playerTransform.position + new Vector3(0.2f, desplazamientoY, 0f);
+        }
+
+        // DETECCIÓN DE LA BARRA ESPACIADORA
+        if (Input.GetKeyDown(KeyCode.Space) && playerTransform != null)
+        {
+            // Si ESTA campera en específico ya la llevás puesta, la barra espaciadora la deja en el piso
+            if (isBeingCarried)
+            {
+                DropCoat();
+                return;
+            }
+
+            // Si NO la llevás puesta, calculamos la distancia para ver si estás cerca de ella
+            float distanciaActual = Vector2.Distance(transform.position, playerTransform.position);
+
+            if (distanciaActual <= distanciaParaInteractuar)
+            {
+                // SEGUNDO PASO: Si la tocás MIENTRAS está titilando, se acopla
+                if (isBlinking)
+                {
+                    GrabCoat();
+                }
+                // PRIMER PASO: Si está normal, empieza a titilar
+                else
+                {
+                    StartCoroutine(BlinkEffect());
+                }
+            }
         }
     }
 
-    void OnMouseDown()
+    // Función auxiliar para saber cuántas camperas se están cargando ahora mismo
+    int ContarCamperasEnPlayer()
     {
-        // Si el personaje ya la lleva puesta, no hace falta hacer más nada
-        if (isBeingCarried) return;
-
-        // SEGUNDO CLIC: Si la tocás MIENTRAS está titilando, se acopla al personaje
-        if (isBlinking)
+        int contador = 0;
+        // Buscamos todos los scripts "DraggableObject" que tengan al Player como padre
+        DraggableObject[] todasLasCamperas = playerTransform.GetComponentsInChildren<DraggableObject>();
+        
+        for (int i = 0; i < todasLasCamperas.Length; i++)
         {
-            GrabCoat();
+            // Si la campera de la lista es ESTA misma, frenamos el conteo acá
+            // Esto determina el orden de llegada en la "pila"
+            if (todasLasCamperas[i] == this)
+            {
+                return contador;
+            }
+            contador++;
         }
-        // PRIMER CLIC: Si está normal, empieza a titilar
-        else
-        {
-            StartCoroutine(BlinkEffect());
-        }
+        return contador;
     }
 
-    // Efecto de titileo por opacidad (cambia entre 100% y 40% de transparencia)
+    // Efecto de titileo por opacidad
     IEnumerator BlinkEffect()
     {
         isBlinking = true;
-        Debug.Log("Primer clic: Titilando " + gameObject.name);
+        Debug.Log("Primer paso: Titilando " + gameObject.name);
 
-        // Va a parpadear unas 6 veces (durante unos 2.4 segundos). 
-        // Si en ese tiempo no la volvés a tocar, el efecto se corta y vuelve a la normalidad.
         for (int i = 0; i < 6; i++)
         {
-            // Si la agarraste a mitad del parpadeo, frena la animación para que no quede invisible
             if (isBeingCarried) yield break;
 
             if (spriteRenderer != null)
             {
-                // Baja la opacidad al 40% (transparente)
                 spriteRenderer.color = new Color(1f, 1f, 1f, 0.4f);
                 yield return new WaitForSeconds(0.2f);
                 
-                // Vuelve al 100% (sólido)
                 spriteRenderer.color = Color.white;
                 yield return new WaitForSeconds(0.2f);
             }
         }
 
-        // Si se acabó el tiempo y no la tocaste de nuevo, se apaga el modo selección
         isBlinking = false;
-        Debug.Log("Se terminó el tiempo para agarrar la campera.");
     }
 
     void GrabCoat()
@@ -87,19 +124,38 @@ public class DraggableObject : MonoBehaviour
         isBeingCarried = true;
         isBlinking = false;
         
-        // Frenamos cualquier parpadeo que haya quedado activo para que quede 100% visible
         StopAllCoroutines();
         if (spriteRenderer != null)
         {
             spriteRenderer.color = Color.white;
+            
+            // Le aumentamos dinámicamente el Sorting Order según cuántas lleve
+            // Para que las camperas nuevas se rendericen siempre ADELANTE de las anteriores
+            spriteRenderer.sortingOrder = 10 + ContarCamperasEnPlayer();
         }
 
-        // Se vuelve hija del Player en la jerarquía para que herede su movimiento automáticamente
         if (playerTransform != null)
         {
             transform.SetParent(playerTransform);
         }
 
-        Debug.Log("¡Segundo clic! La campera se acopló al personaje.");
+        Debug.Log("¡Campera agregada a la pila!");
+    }
+
+    void DropCoat()
+    {
+        isBeingCarried = false;
+        isBlinking = false;
+
+        // Le quitamos el padre para dejarla en el piso
+        transform.SetParent(null);
+
+        if (spriteRenderer != null)
+        {
+            // Volvemos el sorting order a un número base en el piso (ej: 2)
+            spriteRenderer.sortingOrder = 2; 
+        }
+
+        Debug.Log("¡Campera soltada de la pila!");
     }
 }
