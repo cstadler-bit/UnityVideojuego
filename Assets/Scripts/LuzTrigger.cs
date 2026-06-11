@@ -1,16 +1,17 @@
 using UnityEngine;
+using UnityEngine.Rendering.Universal; // Necesario para que reconozca las luces 2D
 
 public class LuzTrigger : MonoBehaviour
 {
     [Header("Referencias de Luces")]
-    [SerializeField] private GameObject luzGeneral;     // El objeto que ilumina el salón/escenario
-    [SerializeField] private GameObject linternaPlayer;   // El objeto de la linterna que tiene el Player adentro
+    [SerializeField] private Light2D luzGeneral;       // La luz global o del salón
+    [SerializeField] private Light2D linternaPlayer;    // La linterna (Spot Light 2D) adentro del personaje
 
-    private bool lucesApagadas = false; // Nos sirve para saber en qué estado estamos
+    private bool lucesApagadas = false;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // Verificamos si el que pisó el cuadrado es el Player
+        // Verificamos si el que pisó el cuadrado sensor es el Player
         if (other.CompareTag("Player"))
         {
             // Invertimos el estado de las luces
@@ -18,17 +19,17 @@ public class LuzTrigger : MonoBehaviour
 
             if (lucesApagadas)
             {
-                // CAMINO DE IDA: Apagamos la luz del mapa y prendemos la linterna
-                if (luzGeneral != null) luzGeneral.SetActive(false);
-                if (linternaPlayer != null) linternaPlayer.SetActive(true);
-                Debug.Log("¡Corte de luz! Se encendió la linterna del personaje.");
+                // CAMINO DE IDA: Apagamos el componente de luz general y prendemos la linterna
+                if (luzGeneral != null) luzGeneral.enabled = false;
+                if (linternaPlayer != null) linternaPlayer.enabled = true;
+                Debug.Log("¡Corte de luz! Se habilitó la linterna del personaje.");
             }
             else
             {
-                // CAMINO DE VUELTA: Prendemos la luz del mapa y apagamos la linterna
-                if (luzGeneral != null) luzGeneral.SetActive(true);
-                if (linternaPlayer != null) linternaPlayer.SetActive(false);
-                Debug.Log("¡Volvió la luz! Se apagó la linterna.");
+                // CAMINO DE VUELTA: Prendemos la luz general y apagamos la linterna
+                if (luzGeneral != null) luzGeneral.enabled = true;
+                if (linternaPlayer != null) linternaPlayer.enabled = false;
+                Debug.Log("¡Volvió la luz! Se deshabilitó la linterna.");
             }
         }
     }
