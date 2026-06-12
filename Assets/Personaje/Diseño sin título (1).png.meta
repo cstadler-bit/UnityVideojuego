@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: 74e31c944f73fde46a7b60f00cd3ed9b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9182390601530641763
+    second: "Dise\xF1o sin t\xEDtulo (1)_0"
+  - first:
+      213: 8022704316823412961
+    second: "Dise\xF1o sin t\xEDtulo (1)_1"
+  - first:
+      213: -2710446331428008883
+    second: "Dise\xF1o sin t\xEDtulo (1)_2"
+  - first:
+      213: 3282379187276846061
+    second: "Dise\xF1o sin t\xEDtulo (1)_3"
+  - first:
+      213: -476163934556361056
+    second: "Dise\xF1o sin t\xEDtulo (1)_4"
+  - first:
+      213: 8395876167206226285
+    second: "Dise\xF1o sin t\xEDtulo (1)_5"
+  - first:
+      213: -6545029107712306536
+    second: "Dise\xF1o sin t\xEDtulo (1)_6"
+  - first:
+      213: -932803914391409094
+    second: "Dise\xF1o sin t\xEDtulo (1)_7"
+  - first:
+      213: -2331182939552165625
+    second: "Dise\xF1o sin t\xEDtulo (1)_8"
+  - first:
+      213: 3950694133951889288
+    second: "Dise\xF1o sin t\xEDtulo (1)_9"
+  - first:
+      213: -503732566479099929
+    second: "Dise\xF1o sin t\xEDtulo (1)_10"
+  - first:
+      213: -7761288770153894131
+    second: "Dise\xF1o sin t\xEDtulo (1)_11"
+  - first:
+      213: 4103279496249127722
+    second: "Dise\xF1o sin t\xEDtulo (1)_12"
+  - first:
+      213: -6096385717169832324
+    second: "Dise\xF1o sin t\xEDtulo (1)_13"
+  - first:
+      213: -5323057789168416202
+    second: "Dise\xF1o sin t\xEDtulo (1)_14"
+  - first:
+      213: -8887176976092351994
+    second: "Dise\xF1o sin t\xEDtulo (1)_15"
+  - first:
+      213: 4748041865580711323
+    second: "Dise\xF1o sin t\xEDtulo (1)_16"
+  - first:
+      213: 8943615971169046161
+    second: "Dise\xF1o sin t\xEDtulo (1)_17"
+  - first:
+      213: -8726273151772419194
+    second: "Dise\xF1o sin t\xEDtulo (1)_18"
+  - first:
+      213: 883324698290873438
+    second: "Dise\xF1o sin t\xEDtulo (1)_19"
+  - first:
+      213: 2675954572230633326
+    second: "Dise\xF1o sin t\xEDtulo (1)_20"
+  - first:
+      213: -1385399010655609625
+    second: "Dise\xF1o sin t\xEDtulo (1)_21"
+  - first:
+      213: 3606547146062198359
+    second: "Dise\xF1o sin t\xEDtulo (1)_22"
+  - first:
+      213: -2738826286196657588
+    second: "Dise\xF1o sin t\xEDtulo (1)_23"
+  - first:
+      213: 7151995964411609812
+    second: "Dise\xF1o sin t\xEDtulo (1)_24"
+  - first:
+      213: 3050949090406206336
+    second: "Dise\xF1o sin t\xEDtulo (1)_25"
+  - first:
+      213: -3739720196846638144
+    second: "Dise\xF1o sin t\xEDtulo (1)_26"
+  - first:
+      213: 7669773817606074393
+    second: "Dise\xF1o sin t\xEDtulo (1)_27"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Dise\xF1o sin t\xEDtulo (1)_0"
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1230
+        width: 123
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d8e190a976e6f70800000000000000
+      internalID: 9182390601530641763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Dise\xF1o sin t\xEDtulo (1)_1"
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1230
+        width: 124
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0a04ee11f565f60800000000000000
+      internalID: 8022704316823412961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Dise\xF1o sin t\xEDtulo (1)_2"
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 1230
+        width: 123
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c09701c6f826ad0800000000000000
+      internalID: -2710446331428008883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Dise\xF1o sin t\xEDtulo (1)_3"
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 1230
+        width: 124
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de395c3ea7a5d8d20800000000000000
+      internalID: 3282379187276846061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Dise\xF1o sin t\xEDtulo (1)_4"
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 1230
+        width: 123
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae6ae1ac635469f0800000000000000
+      internalID: -476163934556361056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Dise\xF1o sin t\xEDtulo (1)_5"
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 1230
+        width: 125
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d69ce7c04e4248470800000000000000
+      internalID: 8395876167206226285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Dise\xF1o sin t\xEDtulo (1)_6"
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 1230
+        width: 123
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892573e14b26b25a0800000000000000
+      internalID: -6545029107712306536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Dise\xF1o sin t\xEDtulo (1)_7"
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 893
+        width: 120
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e2b9538c30e03f0800000000000000
+      internalID: -932803914391409094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Dise\xF1o sin t\xEDtulo (1)_8"
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 898
+        width: 120
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 701da85b779f5afd0800000000000000
+      internalID: -2331182939552165625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Dise\xF1o sin t\xEDtulo (1)_9"
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 896
+        width: 120
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ffb66126fa3d630800000000000000
+      internalID: 3950694133951889288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Dise\xF1o sin t\xEDtulo (1)_10"
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 895
+        width: 120
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7a73156e16209f0800000000000000
+      internalID: -503732566479099929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Dise\xF1o sin t\xEDtulo (1)_11"
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 898
+        width: 118
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0fafbf0cfc5a4490800000000000000
+      internalID: -7761288770153894131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Dise\xF1o sin t\xEDtulo (1)_12"
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 898
+        width: 119
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a23b21436f6c1f830800000000000000
+      internalID: 4103279496249127722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Dise\xF1o sin t\xEDtulo (1)_13"
+      rect:
+        serializedVersion: 2
+        x: 2265
+        y: 895
+        width: 118
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7eb3528d79456ba0800000000000000
+      internalID: -6096385717169832324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Dise\xF1o sin t\xEDtulo (1)_14"
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 575
+        width: 136
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a8dbdb423b026b0800000000000000
+      internalID: -5323057789168416202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Dise\xF1o sin t\xEDtulo (1)_15"
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 575
+        width: 137
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6023cf360a76aa480800000000000000
+      internalID: -8887176976092351994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Dise\xF1o sin t\xEDtulo (1)_16"
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 575
+        width: 138
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d0f98abee64e140800000000000000
+      internalID: 4748041865580711323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Dise\xF1o sin t\xEDtulo (1)_17"
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 575
+        width: 138
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19e8a09275b1e1c70800000000000000
+      internalID: 8943615971169046161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Dise\xF1o sin t\xEDtulo (1)_18"
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 575
+        width: 140
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68b939f5dcc06e680800000000000000
+      internalID: -8726273151772419194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Dise\xF1o sin t\xEDtulo (1)_19"
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 577
+        width: 140
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54e4fe0223324c00800000000000000
+      internalID: 883324698290873438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Dise\xF1o sin t\xEDtulo (1)_20"
+      rect:
+        serializedVersion: 2
+        x: 2254
+        y: 575
+        width: 139
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e67a3e07186e22520800000000000000
+      internalID: 2675954572230633326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Dise\xF1o sin t\xEDtulo (1)_21"
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 244
+        width: 136
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ecd1b1a0f216cce0800000000000000
+      internalID: -1385399010655609625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Dise\xF1o sin t\xEDtulo (1)_22"
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 245
+        width: 135
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7567cb265870d0230800000000000000
+      internalID: 3606547146062198359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Dise\xF1o sin t\xEDtulo (1)_23"
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 245
+        width: 136
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42febde00cbdf9d0800000000000000
+      internalID: -2738826286196657588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Dise\xF1o sin t\xEDtulo (1)_24"
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 245
+        width: 137
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d208cdcf6ef04360800000000000000
+      internalID: 7151995964411609812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Dise\xF1o sin t\xEDtulo (1)_25"
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 245
+        width: 137
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b86797806275a20800000000000000
+      internalID: 3050949090406206336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Dise\xF1o sin t\xEDtulo (1)_26"
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 245
+        width: 138
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb2a9b7b48d91cc0800000000000000
+      internalID: -3739720196846638144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Dise\xF1o sin t\xEDtulo (1)_27"
+      rect:
+        serializedVersion: 2
+        x: 2258
+        y: 245
+        width: 139
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9107002a6a2807a60800000000000000
+      internalID: 7669773817606074393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Dise\xF1o sin t\xEDtulo (1)_0": 9182390601530641763
+      "Dise\xF1o sin t\xEDtulo (1)_1": 8022704316823412961
+      "Dise\xF1o sin t\xEDtulo (1)_10": -503732566479099929
+      "Dise\xF1o sin t\xEDtulo (1)_11": -7761288770153894131
+      "Dise\xF1o sin t\xEDtulo (1)_12": 4103279496249127722
+      "Dise\xF1o sin t\xEDtulo (1)_13": -6096385717169832324
+      "Dise\xF1o sin t\xEDtulo (1)_14": -5323057789168416202
+      "Dise\xF1o sin t\xEDtulo (1)_15": -8887176976092351994
+      "Dise\xF1o sin t\xEDtulo (1)_16": 4748041865580711323
+      "Dise\xF1o sin t\xEDtulo (1)_17": 8943615971169046161
+      "Dise\xF1o sin t\xEDtulo (1)_18": -8726273151772419194
+      "Dise\xF1o sin t\xEDtulo (1)_19": 883324698290873438
+      "Dise\xF1o sin t\xEDtulo (1)_2": -2710446331428008883
+      "Dise\xF1o sin t\xEDtulo (1)_20": 2675954572230633326
+      "Dise\xF1o sin t\xEDtulo (1)_21": -1385399010655609625
+      "Dise\xF1o sin t\xEDtulo (1)_22": 3606547146062198359
+      "Dise\xF1o sin t\xEDtulo (1)_23": -2738826286196657588
+      "Dise\xF1o sin t\xEDtulo (1)_24": 7151995964411609812
+      "Dise\xF1o sin t\xEDtulo (1)_25": 3050949090406206336
+      "Dise\xF1o sin t\xEDtulo (1)_26": -3739720196846638144
+      "Dise\xF1o sin t\xEDtulo (1)_27": 7669773817606074393
+      "Dise\xF1o sin t\xEDtulo (1)_3": 3282379187276846061
+      "Dise\xF1o sin t\xEDtulo (1)_4": -476163934556361056
+      "Dise\xF1o sin t\xEDtulo (1)_5": 8395876167206226285
+      "Dise\xF1o sin t\xEDtulo (1)_6": -6545029107712306536
+      "Dise\xF1o sin t\xEDtulo (1)_7": -932803914391409094
+      "Dise\xF1o sin t\xEDtulo (1)_8": -2331182939552165625
+      "Dise\xF1o sin t\xEDtulo (1)_9": 3950694133951889288
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
