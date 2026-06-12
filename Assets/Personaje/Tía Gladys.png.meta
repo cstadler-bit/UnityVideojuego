@@ -1,0 +1,235 @@
+fileFormatVersion: 2
+guid: 001fb2f8c5a3cfa44a317dc0671de6dc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3200545846440316178
+    second: "T\xEDa Gladys_0"
+  - first:
+      213: 3530913484340961371
+    second: "T\xEDa Gladys_1"
+  - first:
+      213: -1403062206178927960
+    second: "T\xEDa Gladys_2"
+  - first:
+      213: 7736017555021387807
+    second: "T\xEDa Gladys_3"
+  - first:
+      213: -143562440017941766
+    second: "T\xEDa Gladys_4"
+  - first:
+      213: -8877563038289825046
+    second: "T\xEDa Gladys_5"
+  - first:
+      213: 5103196788270025949
+    second: "T\xEDa Gladys_6"
+  - first:
+      213: 3169990897249070480
+    second: "T\xEDa Gladys_7"
+  - first:
+      213: 5210758703468455317
+    second: "T\xEDa Gladys_8"
+  - first:
+      213: -2248016166800489775
+    second: "T\xEDa Gladys_9"
+  - first:
+      213: 90820701875081267
+    second: "T\xEDa Gladys_10"
+  - first:
+      213: -5486909836456367514
+    second: "T\xEDa Gladys_11"
+  - first:
+      213: 4801896645352262671
+    second: "T\xEDa Gladys_12"
+  - first:
+      213: 4428357284637860269
+    second: "T\xEDa Gladys_13"
+  - first:
+      213: -4632641538808054684
+    second: "T\xEDa Gladys_14"
+  - first:
+      213: -3173024413480529502
+    second: "T\xEDa Gladys_15"
+  - first:
+      213: -4086854876386788068
+    second: "T\xEDa Gladys_16"
+  - first:
+      213: -8824638062868074266
+    second: "T\xEDa Gladys_17"
+  - first:
+      213: 7972054974234153766
+    second: "T\xEDa Gladys_18"
+  - first:
+      213: 8599827886575917043
+    second: "T\xEDa Gladys_19"
+  - first:
+      213: -1665814371714185453
+    second: "T\xEDa Gladys_20"
+  - first:
+      213: 7645419956420692295
+    second: "T\xEDa Gladys_21"
+  - first:
+      213: 2176604812017945875
+    second: "T\xEDa Gladys_22"
+  - first:
+      213: 6301773763426428041
+    second: "T\xEDa Gladys_23"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "T\xEDa Gladys_3"
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 918
+        width: 240
+        height: 461
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f185c37aafadb5b60800000000000000
+      internalID: 7736017555021387807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f11ea3acaa1126a4bb6964e9c03f5a92
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "T\xEDa Gladys_0": -3200545846440316178
+      "T\xEDa Gladys_1": 3530913484340961371
+      "T\xEDa Gladys_10": 90820701875081267
+      "T\xEDa Gladys_11": -5486909836456367514
+      "T\xEDa Gladys_12": 4801896645352262671
+      "T\xEDa Gladys_13": 4428357284637860269
+      "T\xEDa Gladys_14": -4632641538808054684
+      "T\xEDa Gladys_15": -3173024413480529502
+      "T\xEDa Gladys_16": -4086854876386788068
+      "T\xEDa Gladys_17": -8824638062868074266
+      "T\xEDa Gladys_18": 7972054974234153766
+      "T\xEDa Gladys_19": 8599827886575917043
+      "T\xEDa Gladys_2": -1403062206178927960
+      "T\xEDa Gladys_20": -1665814371714185453
+      "T\xEDa Gladys_21": 7645419956420692295
+      "T\xEDa Gladys_22": 2176604812017945875
+      "T\xEDa Gladys_23": 6301773763426428041
+      "T\xEDa Gladys_3": 7736017555021387807
+      "T\xEDa Gladys_4": -143562440017941766
+      "T\xEDa Gladys_5": -8877563038289825046
+      "T\xEDa Gladys_6": 5103196788270025949
+      "T\xEDa Gladys_7": 3169990897249070480
+      "T\xEDa Gladys_8": 5210758703468455317
+      "T\xEDa Gladys_9": -2248016166800489775
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
