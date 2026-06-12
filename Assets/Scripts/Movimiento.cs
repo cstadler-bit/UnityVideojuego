@@ -1,16 +1,19 @@
 using UnityEngine;
+using System.Collections;
 
 public class Movimiento : MonoBehaviour
 {
     public float velocidad = 5f;
+    public bool congelado = false;
 
     private Animator animator;
-
+    private SpriteRenderer spriteRenderer;
     private Vector2 ultimaDireccion = new Vector2(0, -1);
 
     void Start()
     {
         animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
 
         animator.SetFloat("Horizontal", 0);
         animator.SetFloat("Vertical", -1);
@@ -19,6 +22,12 @@ public class Movimiento : MonoBehaviour
 
     void Update()
     {
+        if (congelado)
+        {
+            animator.SetBool("Moving", false);
+            return;
+        }
+
         float h = 0f;
         float v = 0f;
 
@@ -43,5 +52,33 @@ public class Movimiento : MonoBehaviour
         animator.SetFloat("Horizontal", ultimaDireccion.x);
         animator.SetFloat("Vertical", ultimaDireccion.y);
         animator.SetBool("Moving", movimiento != Vector2.zero);
+    }
+
+    public void AplicarCongeladoVisual()
+    {
+        spriteRenderer.color = new Color(1f, 1f, 1f, 0.6f);
+    }
+
+    public void QuitarCongeladoVisual()
+    {
+        spriteRenderer.color = Color.white;
+    }
+
+    public IEnumerator Parpadear(float duracion)
+    {
+        float tiempo = 0f;
+
+        while (tiempo < duracion)
+        {
+            spriteRenderer.enabled = false;
+            yield return new WaitForSeconds(0.15f);
+
+            spriteRenderer.enabled = true;
+            yield return new WaitForSeconds(0.15f);
+
+            tiempo += 0.3f;
+        }
+
+        spriteRenderer.enabled = true;
     }
 }
