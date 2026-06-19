@@ -80,10 +80,30 @@ public class GestionMisionNuevoPersonaje : MonoBehaviour
         // 4. 🔥 PRENDEMOS EL CARTEL DE ÉXITO
         if (cartelMisionCumplida != null) 
         {
-            // Nos aseguramos de que su padre (si tuviera) esté prendido, o lo independizamos
             cartelMisionCumplida.SetActive(true);
             cartelFinalVisible = true; 
             Debug.Log("¡Cartel de éxito encendido con éxito!");
+        }
+
+        // 5. 😊 EVOLUCIÓN: Buscamos el script único de evolución y lo ponemos feliz
+        EvolucionGladys evo = GetComponent<EvolucionGladys>();
+        if (evo != null) 
+        {
+            evo.ForzarCaraFeliz();
+        }
+        else
+        {
+            Debug.LogWarning("No se encontró el componente de Evolución (EvolucionGladys) en este personaje.");
+        }
+
+        // 📢 GameManager central: Suma la misión cumplida
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.RegistrarMisionCumplida();
+        }
+        else
+        {
+            Debug.LogWarning("¡Ojo! No se encontró el GameManager en la escena.");
         }
     }
 

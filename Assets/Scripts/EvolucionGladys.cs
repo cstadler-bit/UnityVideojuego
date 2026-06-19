@@ -97,7 +97,7 @@ public class EvolucionGladys : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player") && !temporizadorActivo)
+        if (other.CompareTag("Player") && !temporizadorActivo && faseActual == 0)
         {
             RevelarTia();
         }
@@ -120,5 +120,38 @@ public class EvolucionGladys : MonoBehaviour
         if (caraFelizUI != null) caraFelizUI.SetActive(true);
         if (filtroRojoUI != null) filtroRojoUI.fillAmount = 0.33f;
         Debug.Log("Inicio: Tía Feliz.");
+    }
+
+    // 🔥 FUNCIÓN PÚBLICA PARA REBECA Y GLADYS: Fuerza el regreso y congelamiento en Feliz
+    public void ForzarCaraFeliz()
+    {
+        temporizadorActivo = false; // Frenamos el reloj para que no avance al enojo
+        estaTitilando = false;
+        faseActual = 5; // Un estado final alternativo que representa el éxito
+
+        // Apagamos los estados feos
+        if (fondoIncognito != null) fondoIncognito.SetActive(false);
+        if (caraPreocupadaUI != null) caraPreocupadaUI.SetActive(false);
+        if (caraEnojadaUI != null) caraEnojadaUI.SetActive(false);
+        
+        // Encendemos y forzamos la cara feliz limpia
+        if (caraFelizUI != null) 
+        {
+            caraFelizUI.SetActive(true);
+            Image imgFeliz = caraFelizUI.GetComponent<Image>();
+            if (imgFeliz != null)
+            {
+                imgFeliz.color = Color.white; // Nos aseguramos de que brille a todo color
+            }
+        }
+
+        // Reseteamos el filtro rojo a cero y nos aseguramos de que esté activo el GameObject
+        if (filtroRojoUI != null) 
+        {
+            filtroRojoUI.gameObject.SetActive(true);
+            filtroRojoUI.fillAmount = 0f; 
+        }
+
+        Debug.Log("ForzarCaraFeliz ejecutado: El personaje congeló su estado en FELIZ.");
     }
 }
