@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 14f84dc01552c854eb56c9dfdb70b1e4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7916098403687019347
+    second: Rebeca_0
+  - first:
+      213: -6371582566888268092
+    second: Rebeca_1
+  - first:
+      213: 8456215364257099840
+    second: Rebeca_2
+  - first:
+      213: -7326154452616942719
+    second: Rebeca_3
+  - first:
+      213: 1292827789154893821
+    second: Rebeca_4
+  - first:
+      213: 345428051231318345
+    second: Rebeca_5
+  - first:
+      213: 8541456383545924566
+    second: Rebeca_6
+  - first:
+      213: 3765978893593160522
+    second: Rebeca_7
+  - first:
+      213: -7261673726723850025
+    second: Rebeca_8
+  - first:
+      213: 4366844023092624218
+    second: Rebeca_9
+  - first:
+      213: -4754863868581729799
+    second: Rebeca_10
+  - first:
+      213: 7749350330875124860
+    second: Rebeca_11
+  - first:
+      213: 8059536761956072642
+    second: Rebeca_12
+  - first:
+      213: 8580343687379311581
+    second: Rebeca_13
+  - first:
+      213: -2350140035438175516
+    second: Rebeca_14
+  - first:
+      213: -3184352311483432769
+    second: Rebeca_15
+  - first:
+      213: 7878344769782854690
+    second: Rebeca_16
+  - first:
+      213: -2050585739202423191
+    second: Rebeca_17
+  - first:
+      213: -6849013470606537614
+    second: Rebeca_18
+  - first:
+      213: -7781729041397781749
+    second: Rebeca_19
+  - first:
+      213: 8120199649062244147
+    second: Rebeca_20
+  - first:
+      213: -961280702710342114
+    second: Rebeca_21
+  - first:
+      213: -1582028768634239153
+    second: Rebeca_22
+  - first:
+      213: -8476539336414887526
+    second: Rebeca_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rebeca_0
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 1659
+        width: 165
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dacc231717e542290800000000000000
+      internalID: -7916098403687019347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebeca_1
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 1661
+        width: 160
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce9d8bd9679397a0800000000000000
+      internalID: -6371582566888268092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebeca_2
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 1661
+        width: 159
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 040beb222138a5570800000000000000
+      internalID: 8456215364257099840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebeca_3
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 1661
+        width: 161
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18bee1a4755445a90800000000000000
+      internalID: -7326154452616942719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebeca_4
+      rect:
+        serializedVersion: 2
+        x: 2584
+        y: 1661
+        width: 159
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dffb458460c01f110800000000000000
+      internalID: 1292827789154893821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebeca_5
+      rect:
+        serializedVersion: 2
+        x: 2963
+        y: 1661
+        width: 161
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94129118bf43bc400800000000000000
+      internalID: 345428051231318345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebeca_6
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 1177
+        width: 164
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db5fb58359598670800000000000000
+      internalID: 8541456383545924566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebeca_7
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 1179
+        width: 166
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b2d38c9d1734430800000000000000
+      internalID: 3765978893593160522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebeca_8
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 1179
+        width: 164
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d086d3383a593b90800000000000000
+      internalID: -7261673726723850025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebeca_9
+      rect:
+        serializedVersion: 2
+        x: 2211
+        y: 1179
+        width: 166
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b39f1a0852a9c30800000000000000
+      internalID: 4366844023092624218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebeca_10
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 1181
+        width: 164
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f9a8ddf084530eb0800000000000000
+      internalID: -4754863868581729799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebeca_11
+      rect:
+        serializedVersion: 2
+        x: 2968
+        y: 1179
+        width: 164
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c1edf61193b8b60800000000000000
+      internalID: 7749350330875124860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebeca_12
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 744
+        width: 185
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ccf796dbf939df60800000000000000
+      internalID: 8059536761956072642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebeca_13
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 745
+        width: 187
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddb52018f11831770800000000000000
+      internalID: 8580343687379311581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebeca_14
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 745
+        width: 188
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ea984fd610a26fd0800000000000000
+      internalID: -2350140035438175516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebeca_15
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 745
+        width: 185
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb00652b178eec3d0800000000000000
+      internalID: -3184352311483432769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebeca_16
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 745
+        width: 187
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224b6fca3d0855d60800000000000000
+      internalID: 7878344769782854690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebeca_17
+      rect:
+        serializedVersion: 2
+        x: 2968
+        y: 745
+        width: 189
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9669b59722bda83e0800000000000000
+      internalID: -2050585739202423191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebeca_18
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 310
+        width: 192
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27cc1ae398a63f0a0800000000000000
+      internalID: -6849013470606537614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebeca_19
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 310
+        width: 187
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0be42d8aaeb10490800000000000000
+      internalID: -7781729041397781749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebeca_20
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 311
+        width: 188
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f4b93ee8eb0b070800000000000000
+      internalID: 8120199649062244147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebeca_21
+      rect:
+        serializedVersion: 2
+        x: 2197
+        y: 310
+        width: 190
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1e13814b48d8a2f0800000000000000
+      internalID: -961280702710342114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebeca_22
+      rect:
+        serializedVersion: 2
+        x: 2590
+        y: 310
+        width: 190
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f478b1587318b0ae0800000000000000
+      internalID: -1582028768634239153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebeca_23
+      rect:
+        serializedVersion: 2
+        x: 2974
+        y: 310
+        width: 188
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a918d5852684d5a80800000000000000
+      internalID: -8476539336414887526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Rebeca_0: -7916098403687019347
+      Rebeca_1: -6371582566888268092
+      Rebeca_10: -4754863868581729799
+      Rebeca_11: 7749350330875124860
+      Rebeca_12: 8059536761956072642
+      Rebeca_13: 8580343687379311581
+      Rebeca_14: -2350140035438175516
+      Rebeca_15: -3184352311483432769
+      Rebeca_16: 7878344769782854690
+      Rebeca_17: -2050585739202423191
+      Rebeca_18: -6849013470606537614
+      Rebeca_19: -7781729041397781749
+      Rebeca_2: 8456215364257099840
+      Rebeca_20: 8120199649062244147
+      Rebeca_21: -961280702710342114
+      Rebeca_22: -1582028768634239153
+      Rebeca_23: -8476539336414887526
+      Rebeca_3: -7326154452616942719
+      Rebeca_4: 1292827789154893821
+      Rebeca_5: 345428051231318345
+      Rebeca_6: 8541456383545924566
+      Rebeca_7: 3765978893593160522
+      Rebeca_8: -7261673726723850025
+      Rebeca_9: 4366844023092624218
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
