@@ -1423,7 +1423,7 @@ MonoBehaviour:
   - {fileID: 282553181}
   - {fileID: 249169606}
   - {fileID: 1454327380}
-  velocidad: 2
+  velocidad: 3
 --- !u!95 &511507048
 Animator:
   serializedVersion: 7

@@ -141,7 +141,7 @@ TextureImporter:
         width: 302
         height: 604
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -155,50 +155,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xEDa Gladys Saco_1"
-      rect:
-        serializedVersion: 2
-        x: 1105
-        y: 1197
-        width: 290
-        height: 604
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bb1c2a49144374d80800000000000000
-      internalID: -8266581134744043077
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "T\xEDa Gladys Saco_2"
-      rect:
-        serializedVersion: 2
-        x: 1553
-        y: 1197
-        width: 284
-        height: 599
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7a697306f5c7963a0800000000000000
-      internalID: -6671664623894686041
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: "T\xEDa Gladys Saco_3"
       rect:
         serializedVersion: 2
@@ -207,7 +163,7 @@ TextureImporter:
         width: 266
         height: 582
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -229,7 +185,7 @@ TextureImporter:
         width: 279
         height: 575
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -251,7 +207,7 @@ TextureImporter:
         width: 269
         height: 584
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -264,143 +220,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: "T\xEDa Gladys Saco_6"
-      rect:
-        serializedVersion: 2
-        x: 678
-        y: 402
-        width: 287
-        height: 612
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 02ac14dc51ba3ac20800000000000000
-      internalID: 3216602668998969888
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "T\xEDa Gladys Saco_7"
-      rect:
-        serializedVersion: 2
-        x: 1118
-        y: 402
-        width: 283
-        height: 612
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 011938e7c52e15d70800000000000000
-      internalID: 9030247614741975312
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "T\xEDa Gladys Saco_8"
-      rect:
-        serializedVersion: 2
-        x: 1560
-        y: 402
-        width: 287
-        height: 606
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0e1f33672c5497b10800000000000000
-      internalID: 1979690212715131360
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "T\xEDa Gladys Saco_9"
-      rect:
-        serializedVersion: 2
-        x: 1999
-        y: 419
-        width: 293
-        height: 593
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f84a7b36b7fee9710800000000000000
-      internalID: 1702061022425621647
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "T\xEDa Gladys Saco_10"
-      rect:
-        serializedVersion: 2
-        x: 2428
-        y: 408
-        width: 284
-        height: 606
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 37f77e68ff9c045c0800000000000000
-      internalID: -4233161550411104397
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "T\xEDa Gladys Saco_11"
-      rect:
-        serializedVersion: 2
-        x: 2843
-        y: 406
-        width: 283
-        height: 604
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1992b70da08e61170800000000000000
-      internalID: 8148955708918540689
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0a491ad53a6d06f4f879c4246aaa423b
     internalID: 0
     vertices: []
     indices: 
