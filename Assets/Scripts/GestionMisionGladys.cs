@@ -58,7 +58,10 @@ public class GestionMisionGladys : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (!misionCompletada && other.CompareTag("Player"))
+        // 🚨 SI YA GANASTE, ignorá por completo si el jugador se aleja
+        if (misionCompletada) return;
+
+        if (other.CompareTag("Player"))
         {
             if (panelPopUpDialogo != null) panelPopUpDialogo.SetActive(false);
         }
@@ -99,6 +102,27 @@ public class GestionMisionGladys : MonoBehaviour
         if (cartelNuevoMisionCumplida != null)
         {
             cartelNuevoMisionCumplida.SetActive(true);
+        }
+
+        // 5. 😊 EVOLUCIÓN: Buscamos el script único en Gladys y lo ponemos feliz
+        EvolucionGladys evo = GetComponent<EvolucionGladys>();
+        if (evo != null) 
+        {
+            evo.ForzarCaraFeliz();
+        }
+        else
+        {
+            Debug.LogWarning("No se encontró el componente de Evolución (EvolucionGladys) en Gladys.");
+        }
+
+        // 📢 ¡NUEVO! Le avisamos al GameManager central que Gladys tiene su saco
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.RegistrarMisionCumplida();
+        }
+        else
+        {
+            Debug.LogWarning("¡Ojo! No se encontró el GameManager en la escena.");
         }
     }
 
