@@ -81,4 +81,22 @@ public class Movimiento : MonoBehaviour
 
         spriteRenderer.enabled = true;
     }
+
+    public IEnumerator BrillarBoost(float duracion)
+    {
+        float tiempo = 0f;
+
+        while (tiempo < duracion)
+        {
+            spriteRenderer.color = new Color(1f, 0.9f, 0.4f, 1f);
+            yield return new WaitForSeconds(0.25f);
+
+            spriteRenderer.color = Color.white;
+            yield return new WaitForSeconds(0.25f);
+
+            tiempo += 0.5f;
+        }
+
+        spriteRenderer.color = Color.white;
+    }
 }
