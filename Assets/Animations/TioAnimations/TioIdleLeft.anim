@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TioWalkUp
+  m_Name: TioIdleLeft
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,19 +21,13 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: -1417527871317080033, guid: a4313e27d3ad7544ca16c16634f32bd7, type: 3}
-    - time: 0.083333336
-      value: {fileID: 7136541184710625580, guid: a4313e27d3ad7544ca16c16634f32bd7, type: 3}
-    - time: 0.16666667
-      value: {fileID: 6160374177579788404, guid: a4313e27d3ad7544ca16c16634f32bd7, type: 3}
-    - time: 0.25
-      value: {fileID: -5034110955351249915, guid: a4313e27d3ad7544ca16c16634f32bd7, type: 3}
+      value: {fileID: -3578874115533841124, guid: 29dfd69185168664a975354a8258fe87, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
     flags: 2
-  m_SampleRate: 12
+  m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -50,16 +44,13 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: -1417527871317080033, guid: a4313e27d3ad7544ca16c16634f32bd7, type: 3}
-    - {fileID: 7136541184710625580, guid: a4313e27d3ad7544ca16c16634f32bd7, type: 3}
-    - {fileID: 6160374177579788404, guid: a4313e27d3ad7544ca16c16634f32bd7, type: 3}
-    - {fileID: -5034110955351249915, guid: a4313e27d3ad7544ca16c16634f32bd7, type: 3}
+    - {fileID: -3578874115533841124, guid: 29dfd69185168664a975354a8258fe87, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.33333334
+    m_StopTime: 0.016666668
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

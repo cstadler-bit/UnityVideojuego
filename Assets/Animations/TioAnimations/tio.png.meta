@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 29dfd69185168664a975354a8258fe87
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8097093101365073231
+    second: tio_0
+  - first:
+      213: 2830475013002601636
+    second: tio_1
+  - first:
+      213: 4782528398125921194
+    second: tio_2
+  - first:
+      213: 2193159141961422046
+    second: tio_3
+  - first:
+      213: -4828520877238291372
+    second: tio_4
+  - first:
+      213: 3814159974888973823
+    second: tio_5
+  - first:
+      213: -7165396611994473015
+    second: tio_6
+  - first:
+      213: -8824506911498747285
+    second: tio_7
+  - first:
+      213: -3578874115533841124
+    second: tio_8
+  - first:
+      213: 3260689236143587086
+    second: tio_9
+  - first:
+      213: 1651769633988915342
+    second: tio_10
+  - first:
+      213: 3729745479232789365
+    second: tio_11
+  - first:
+      213: 2723993264025492976
+    second: tio_12
+  - first:
+      213: -7708541817544509786
+    second: tio_13
+  - first:
+      213: 4996932334374209852
+    second: tio_14
+  - first:
+      213: 3826177028712009606
+    second: tio_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tio_0
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 786
+        width: 88
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4591248647ae5070800000000000000
+      internalID: 8097093101365073231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tio_1
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 774
+        width: 90
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a4a3af170ed74720800000000000000
+      internalID: 2830475013002601636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tio_2
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 786
+        width: 88
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa3738a3d34fe5240800000000000000
+      internalID: 4782528398125921194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tio_3
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 786
+        width: 87
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4d288ae9aaf6e10800000000000000
+      internalID: 2193159141961422046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tio_4
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 532
+        width: 86
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45477a148d5adfcb0800000000000000
+      internalID: -4828520877238291372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tio_5
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 534
+        width: 85
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff525c3f94e9ee430800000000000000
+      internalID: 3814159974888973823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tio_6
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 535
+        width: 86
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd284bceb56f8c90800000000000000
+      internalID: -7165396611994473015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tio_7
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 536
+        width: 85
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b62432ed7bd098580800000000000000
+      internalID: -8824506911498747285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tio_8
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 315
+        width: 87
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1dd3cf14f8455ec0800000000000000
+      internalID: -3578874115533841124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tio_9
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 317
+        width: 87
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f374b959b404d20800000000000000
+      internalID: 3260689236143587086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tio_10
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 319
+        width: 87
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80bfac0bb34ce610800000000000000
+      internalID: 1651769633988915342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tio_11
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 319
+        width: 91
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b1a4890c7b2c330800000000000000
+      internalID: 3729745479232789365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tio_12
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 89
+        width: 91
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fddbc8f0719dc520800000000000000
+      internalID: 2723993264025492976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tio_13
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 90
+        width: 87
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6f30dfe02c50590800000000000000
+      internalID: -7708541817544509786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tio_14
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 88
+        width: 87
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c39c905bb7ba85540800000000000000
+      internalID: 4996932334374209852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tio_15
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 86
+        width: 87
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f83245cbf491530800000000000000
+      internalID: 3826177028712009606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: edc6b99ad7624c3449e7c5b77f697f94
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tio_0: 8097093101365073231
+      tio_1: 2830475013002601636
+      tio_10: 1651769633988915342
+      tio_11: 3729745479232789365
+      tio_12: 2723993264025492976
+      tio_13: -7708541817544509786
+      tio_14: 4996932334374209852
+      tio_15: 3826177028712009606
+      tio_2: 4782528398125921194
+      tio_3: 2193159141961422046
+      tio_4: -4828520877238291372
+      tio_5: 3814159974888973823
+      tio_6: -7165396611994473015
+      tio_7: -8824506911498747285
+      tio_8: -3578874115533841124
+      tio_9: 3260689236143587086
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
