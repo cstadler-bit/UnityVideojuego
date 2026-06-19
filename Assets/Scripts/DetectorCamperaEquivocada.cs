@@ -1,75 +1,86 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; 
+using UnityEngine.SceneManagement; // 🚨 IMPORTANTE: Necesario para cambiar de escena
 
 public class DetectorCamperaEquivocada : MonoBehaviour
 {
-    [Header("Nueva Interfaz (Error)")]
-    [SerializeField] private GameObject cartelCamperaEquivocada; 
+    [Header("Referencias de la Misión")]
+    [SerializeField] private string nombreSacoCorrecto = "sacopeludo"; // O "sacoamarillo" según el personaje
+    [SerializeField] private GameObject cartelMisionFallida;
 
-    [Header("Configuración de Filtros de Ropa")]
-    [Tooltip("La palabra clave que SÍ es la correcta para este personaje (ej: sacoamarillo o sacopeludo)")]
-    [SerializeField] private string nombreSacoCorrecto = "sacoamarillo";
+    [Header("Configuración de Reinicio")]
+    [SerializeField] private string nombreEscenaMenu = "campera menu"; // 🚨 Poné acá el nombre exacto de tu escena de menú
 
-    private bool cartelErrorVisible = false;
+    private bool juegoFallido = false;
 
     void Start()
     {
-        if (cartelCamperaEquivocada != null) cartelCamperaEquivocada.SetActive(false);
-        cartelErrorVisible = false;
+        if (cartelMisionFallida != null)
+        {
+            cartelMisionFallida.SetActive(false);
+        }
+        juegoFallido = false;
     }
 
     void Update()
     {
-        if (cartelErrorVisible)
+        // 🚨 SI YA PERDIÓ: Nos quedamos escuchando el Enter, Espacio o Clic para reiniciar e ir al menú
+        if (juegoFallido)
         {
-            if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
+            if (Input.GetKeyDown(KeyCode.Return) || 
+                Input.GetKeyDown(KeyCode.KeypadEnter) || 
+                Input.GetKeyDown(KeyCode.Space) || 
+                Input.GetMouseButtonDown(0))
             {
-                ReiniciarJuego();
-            }
-            else if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
-            {
-                CerrarCartelError();
+                ReiniciarAlMenu();
             }
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        // Si ya perdió o si lo que entró no es un objeto arrastrable (saco), no hacemos nada
+        if (juegoFallido || other.CompareTag("Player")) return;
+
         string nombreObjeto = other.gameObject.name.ToLower();
 
-        // 🚨 LA REGLA GENERAL: 
-        // Si entra algo que se llama "saco" o "campera", pero NO es el saco correcto seteado en el Inspector... ¡EXPLOTA!
-        if ((nombreObjeto.Contains("saco") || nombreObjeto.Contains("campera")) && !nombreObjeto.Contains(nombreSacoCorrecto.ToLower()))
+        // Si entra un saco, pero NO es el correcto de este personaje... ¡PUM, error!
+        if (nombreObjeto.Contains("saco") && !nombreObjeto.Contains(nombreSacoCorrecto.ToLower()))
         {
-            MostrarErrorCampera();
+            DispararMisionFallida(other.gameObject);
         }
     }
 
-    private void MostrarErrorCampera()
+    private void DispararMisionFallida(GameObject sacoEquivocado)
     {
-        if (cartelErrorVisible) return;
+        juegoFallido = true;
+        Debug.Log($"🚨 ¡Campera equivocada! Se entregó: {sacoEquivocado.name}. Se esperaba: {nombreSacoCorrecto}");
 
-        cartelErrorVisible = true;
+        // 1. Apagamos el saco equivocado para que no quede tirado
+        if (sacoEquivocado != null) sacoEquivocado.SetActive(false);
 
-        if (cartelCamperaEquivocada != null)
+        // 2. Encendemos el cartel de Misión Fallida
+        if (cartelMisionFallida != null)
         {
-            cartelCamperaEquivocada.SetActive(true);
-            Debug.Log("¡Ropa incorrecta detectada! Activando cartel de Game Over.");
+            cartelMisionFallida.SetActive(true);
+        }
+
+        // 3. 🚨 OPCIONAL: Le avisamos al script de evolución de este objeto que se ponga en Blanco y Negro de una
+        EvolucionGladys evo = GetComponent<EvolucionGladys>();
+        if (evo != null)
+        {
+            // Forzamos el estado de pérdida en el script de evolución si fuera necesario
+            evo.enabled = false; // Frenamos su Update para que no se pise la lógica
         }
     }
 
-    public void CerrarCartelError()
+    private void ReiniciarAlMenu()
     {
-        cartelErrorVisible = false;
-        if (cartelCamperaEquivocada != null)
-        {
-            cartelCamperaEquivocada.SetActive(false);
-        }
-    }
-
-    private void ReiniciarJuego()
-    {
-        string escenaActual = SceneManager.GetActiveScene().name;
-        SceneManager.LoadScene(escenaActual);
+        Debug.Log($"🎬 Cargando la escena de menú: {nombreEscenaMenu}");
+        
+        // Despausamos el juego por las dudas si usaste Time.timeScale = 0
+        Time.timeScale = 1f; 
+        
+        // Cargamos la escena del menú de camperas
+        SceneManager.LoadScene(nombreEscenaMenu);
     }
 }
