@@ -1,19 +1,19 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; // Esta línea permite el control y cambio de escenas
+using UnityEngine.SceneManagement; // Esta lï¿½nea permite el control y cambio de escenas
 
 public class MenuInicio : MonoBehaviour
 {
-    // Esta función se va a activar cuando hagas click en Button-Jugar
+    // Esta funciï¿½n se va a activar cuando hagas click en Button-Jugar
     public void CambiarAEscenaJuego()
     {
-        // Cambia automáticamente de la escena Menu a la escena Clase
-        SceneManager.LoadScene("Clase");
+        // Cambia automï¿½ticamente de la escena Menu a la escena Clase
+        SceneManager.LoadScene("0");
     }
 
-    // Esta función la podés usar si tenés un botón para cerrar el juego
+    // Esta funciï¿½n la podï¿½s usar si tenï¿½s un botï¿½n para cerrar el juego
     public void SalirDelJuego()
     {
         Debug.Log("Saliste del juego");
-        Application.Quit(); // Cierra la aplicación (funciona en el juego ya exportado)
+        Application.Quit(); // Cierra la aplicaciï¿½n (funciona en el juego ya exportado)
     }
 }
