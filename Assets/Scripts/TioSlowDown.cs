@@ -5,6 +5,15 @@ public class TioBorracho : MonoBehaviour
 {
     private bool efectoActivo = false;
 
+    private TioMovimiento tioMovimiento;
+    private AudioSource audioSource;
+
+    void Start()
+    {
+        tioMovimiento = GetComponent<TioMovimiento>();
+        audioSource = GetComponent<AudioSource>();
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (efectoActivo) return;
@@ -26,23 +35,44 @@ public class TioBorracho : MonoBehaviour
 
         float velocidadOriginal = jugador.velocidad;
 
-        // CONGELADO
+        // PRIMERA PARTE: Pepe y el tío quedan frenados 5 segundos
+        if (tioMovimiento != null)
+        {
+            tioMovimiento.DetenerTio();
+        }
+
+        if (audioSource != null)
+        {
+            audioSource.Play();
+        }
+
         jugador.congelado = true;
         jugador.AplicarCongeladoVisual();
 
         yield return new WaitForSeconds(5f);
 
+        // Después de 5 segundos, ambos vuelven a moverse
         jugador.congelado = false;
         jugador.QuitarCongeladoVisual();
 
-        // RALENTIZADO
+        if (audioSource != null)
+        {
+            audioSource.Stop();
+        }
+
+        if (tioMovimiento != null)
+        {
+            tioMovimiento.ReanudarTio();
+        }
+
+        // SEGUNDA PARTE: Pepe queda ralentizado 10 segundos
         jugador.velocidad = velocidadOriginal * 0.5f;
 
         StartCoroutine(jugador.Parpadear(10f));
 
         yield return new WaitForSeconds(10f);
 
-        // RESTAURAR
+        // Restaurar velocidad de Pepe
         jugador.velocidad = velocidadOriginal;
 
         efectoActivo = false;

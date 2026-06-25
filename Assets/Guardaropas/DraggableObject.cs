@@ -41,7 +41,6 @@ public class DraggableObject : MonoBehaviour
             int indiceApilado = ContarCamperasEnPlayer();
 
             // Modificamos el eje Y multiplicándolo por su lugar en la pila
-            // Ej: la primera va a Y: 0.1, la segunda a Y: 0.35, la tercera a Y: 0.6...
             float desplazamientoY = 0.1f + (indiceApilado * separacionPorCampera);
 
             transform.position = playerTransform.position + new Vector3(0.2f, desplazamientoY, 0f);
@@ -62,16 +61,8 @@ public class DraggableObject : MonoBehaviour
 
             if (distanciaActual <= distanciaParaInteractuar)
             {
-                // SEGUNDO PASO: Si la tocás MIENTRAS está titilando, se acopla
-                if (isBlinking)
-                {
-                    GrabCoat();
-                }
-                // PRIMER PASO: Si está normal, empieza a titilar
-                else
-                {
-                    StartCoroutine(BlinkEffect());
-                }
+                // 🔥 MODIFICADO: Agarra la campera de UNA con un solo espacio
+                GrabCoat();
             }
         }
     }
@@ -86,7 +77,6 @@ public class DraggableObject : MonoBehaviour
         for (int i = 0; i < todasLasCamperas.Length; i++)
         {
             // Si la campera de la lista es ESTA misma, frenamos el conteo acá
-            // Esto determina el orden de llegada en la "pila"
             if (todasLasCamperas[i] == this)
             {
                 return contador;
@@ -96,11 +86,11 @@ public class DraggableObject : MonoBehaviour
         return contador;
     }
 
-    // Efecto de titileo por opacidad
+    // Efecto de titileo por opacidad (Por si querés usarlo al agarrarla o en otro momento)
     IEnumerator BlinkEffect()
     {
         isBlinking = true;
-        Debug.Log("Primer paso: Titilando " + gameObject.name);
+        Debug.Log("Titilando " + gameObject.name);
 
         for (int i = 0; i < 6; i++)
         {
@@ -130,7 +120,6 @@ public class DraggableObject : MonoBehaviour
             spriteRenderer.color = Color.white;
             
             // Le aumentamos dinámicamente el Sorting Order según cuántas lleve
-            // Para que las camperas nuevas se rendericen siempre ADELANTE de las anteriores
             spriteRenderer.sortingOrder = 10 + ContarCamperasEnPlayer();
         }
 
@@ -139,7 +128,7 @@ public class DraggableObject : MonoBehaviour
             transform.SetParent(playerTransform);
         }
 
-        Debug.Log("¡Campera agregada a la pila!");
+        Debug.Log("¡Campera agregada a la pila con 1 solo Espacio!");
     }
 
     void DropCoat()
