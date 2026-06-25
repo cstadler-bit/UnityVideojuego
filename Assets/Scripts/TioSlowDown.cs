@@ -6,12 +6,12 @@ public class TioBorracho : MonoBehaviour
     private bool efectoActivo = false;
 
     private TioMovimiento tioMovimiento;
-    private AudioSource audioSource;
+    private AudioTioBorracho audioTio;
 
     void Start()
     {
         tioMovimiento = GetComponent<TioMovimiento>();
-        audioSource = GetComponent<AudioSource>();
+        audioTio = GetComponent<AudioTioBorracho>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -35,15 +35,15 @@ public class TioBorracho : MonoBehaviour
 
         float velocidadOriginal = jugador.velocidad;
 
-        // PRIMERA PARTE: Pepe y el tío quedan frenados 5 segundos
+        // PRIMERA PARTE: Pepe y el tío quedan frenados 5 segundos.
         if (tioMovimiento != null)
         {
             tioMovimiento.DetenerTio();
         }
 
-        if (audioSource != null)
+        if (audioTio != null)
         {
-            audioSource.Play();
+            audioTio.ReproducirBalbuceo();
         }
 
         jugador.congelado = true;
@@ -51,13 +51,13 @@ public class TioBorracho : MonoBehaviour
 
         yield return new WaitForSeconds(5f);
 
-        // Después de 5 segundos, ambos vuelven a moverse
+        // Después de 5 segundos, Pepe y el tío vuelven a moverse.
         jugador.congelado = false;
         jugador.QuitarCongeladoVisual();
 
-        if (audioSource != null)
+        if (audioTio != null)
         {
-            audioSource.Stop();
+            audioTio.DetenerBalbuceo();
         }
 
         if (tioMovimiento != null)
@@ -65,14 +65,14 @@ public class TioBorracho : MonoBehaviour
             tioMovimiento.ReanudarTio();
         }
 
-        // SEGUNDA PARTE: Pepe queda ralentizado 10 segundos
+        // SEGUNDA PARTE: Pepe queda ralentizado 10 segundos.
         jugador.velocidad = velocidadOriginal * 0.5f;
 
         StartCoroutine(jugador.Parpadear(10f));
 
         yield return new WaitForSeconds(10f);
 
-        // Restaurar velocidad de Pepe
+        // Restaurar velocidad de Pepe.
         jugador.velocidad = velocidadOriginal;
 
         efectoActivo = false;

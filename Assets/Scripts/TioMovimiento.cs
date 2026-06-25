@@ -59,7 +59,7 @@ public class TioMovimiento : MonoBehaviour
     {
         detenido = true;
 
-        // Congela la animación exactamente en el frame actual
+        // Congela la animación en el frame exacto donde quedó.
         animator.speed = 0f;
     }
 
@@ -67,7 +67,7 @@ public class TioMovimiento : MonoBehaviour
     {
         detenido = false;
 
-        // Reactiva la animación
+        // Reactiva la animación.
         animator.speed = 1f;
         animator.SetBool("Moving", true);
     }

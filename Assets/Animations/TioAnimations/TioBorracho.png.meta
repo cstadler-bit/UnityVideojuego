@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: b1cc56d9e4e43844aa037c3fbd9c7474
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3983543648192078122
+    second: TioBorracho_0
+  - first:
+      213: -5431694295713247174
+    second: TioBorracho_1
+  - first:
+      213: 2537836347870598569
+    second: TioBorracho_2
+  - first:
+      213: -432514925294099399
+    second: TioBorracho_3
+  - first:
+      213: -7652679114905925127
+    second: TioBorracho_4
+  - first:
+      213: -9198135247598072542
+    second: TioBorracho_5
+  - first:
+      213: 6888739912568149351
+    second: TioBorracho_6
+  - first:
+      213: 4055690503833479312
+    second: TioBorracho_7
+  - first:
+      213: 4643671461805983271
+    second: TioBorracho_8
+  - first:
+      213: -6403776704582609026
+    second: TioBorracho_9
+  - first:
+      213: 8606888519966210126
+    second: TioBorracho_10
+  - first:
+      213: 8457151151176595608
+    second: TioBorracho_11
+  - first:
+      213: 1428330715794669697
+    second: TioBorracho_12
+  - first:
+      213: -511890156809984534
+    second: TioBorracho_13
+  - first:
+      213: 5551870524177053609
+    second: TioBorracho_14
+  - first:
+      213: 144693488397015052
+    second: TioBorracho_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TioBorracho_0
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 786
+        width: 86
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de5f3e582c97b8c0800000000000000
+      internalID: -3983543648192078122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TioBorracho_1
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 786
+        width: 87
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a301f7ff0debe94b0800000000000000
+      internalID: -5431694295713247174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TioBorracho_2
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 786
+        width: 87
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a5d6ec56b4383320800000000000000
+      internalID: 2537836347870598569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TioBorracho_3
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 786
+        width: 86
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9346acd87f56ff9f0800000000000000
+      internalID: -432514925294099399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TioBorracho_4
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 533
+        width: 84
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f94bfff3e83cc590800000000000000
+      internalID: -7652679114905925127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TioBorracho_5
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 534
+        width: 83
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22dcae2e9b8a95080800000000000000
+      internalID: -9198135247598072542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TioBorracho_6
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 535
+        width: 84
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7651eaec378b99f50800000000000000
+      internalID: 6888739912568149351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TioBorracho_7
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 536
+        width: 84
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0986be77605b84830800000000000000
+      internalID: 4055690503833479312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TioBorracho_8
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 316
+        width: 85
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726809e5792a17040800000000000000
+      internalID: 4643671461805983271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TioBorracho_9
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 318
+        width: 87
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e779e6e04073127a0800000000000000
+      internalID: -6403776704582609026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TioBorracho_10
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 320
+        width: 86
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4839f5f18fc17770800000000000000
+      internalID: 8606888519966210126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TioBorracho_11
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 318
+        width: 89
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898baa10a26dd5570800000000000000
+      internalID: 8457151151176595608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TioBorracho_12
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 90
+        width: 89
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18088b8e73372d310800000000000000
+      internalID: 1428330715794669697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TioBorracho_13
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 91
+        width: 86
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae5625f4d9665e8f0800000000000000
+      internalID: -511890156809984534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TioBorracho_14
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 89
+        width: 86
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7f880a3d43c0d40800000000000000
+      internalID: 5551870524177053609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TioBorracho_15
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 87
+        width: 85
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08573906fd020200800000000000000
+      internalID: 144693488397015052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TioBorracho_0: -3983543648192078122
+      TioBorracho_1: -5431694295713247174
+      TioBorracho_10: 8606888519966210126
+      TioBorracho_11: 8457151151176595608
+      TioBorracho_12: 1428330715794669697
+      TioBorracho_13: -511890156809984534
+      TioBorracho_14: 5551870524177053609
+      TioBorracho_15: 144693488397015052
+      TioBorracho_2: 2537836347870598569
+      TioBorracho_3: -432514925294099399
+      TioBorracho_4: -7652679114905925127
+      TioBorracho_5: -9198135247598072542
+      TioBorracho_6: 6888739912568149351
+      TioBorracho_7: 4055690503833479312
+      TioBorracho_8: 4643671461805983271
+      TioBorracho_9: -6403776704582609026
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
