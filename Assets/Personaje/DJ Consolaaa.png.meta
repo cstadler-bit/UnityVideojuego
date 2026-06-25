@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: e66437025e031a74a84606c3a553eec1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4483928862110072797
+    second: DJ Consolaaa_0
+  - first:
+      213: -7939011588433517819
+    second: DJ Consolaaa_1
+  - first:
+      213: -6119278963964729546
+    second: DJ Consolaaa_2
+  - first:
+      213: 8177705778895141412
+    second: DJ Consolaaa_3
+  - first:
+      213: -116710189320914004
+    second: DJ Consolaaa_4
+  - first:
+      213: -3682523089858745944
+    second: DJ Consolaaa_5
+  - first:
+      213: -3433468770761401884
+    second: DJ Consolaaa_6
+  - first:
+      213: -8137599018253234303
+    second: DJ Consolaaa_7
+  - first:
+      213: -1993725983862443296
+    second: DJ Consolaaa_8
+  - first:
+      213: 210850621207443224
+    second: DJ Consolaaa_9
+  - first:
+      213: 6639037103562563697
+    second: DJ Consolaaa_10
+  - first:
+      213: -7992420108729856187
+    second: DJ Consolaaa_11
+  - first:
+      213: 6245116392047894424
+    second: DJ Consolaaa_12
+  - first:
+      213: -6206731946578588104
+    second: DJ Consolaaa_13
+  - first:
+      213: -3199791231470443530
+    second: DJ Consolaaa_14
+  - first:
+      213: -1013279357654798704
+    second: DJ Consolaaa_15
+  - first:
+      213: -1079427929063480208
+    second: DJ Consolaaa_16
+  - first:
+      213: 5082633861596630405
+    second: DJ Consolaaa_17
+  - first:
+      213: 2996452095661318033
+    second: DJ Consolaaa_18
+  - first:
+      213: -5667753956617927719
+    second: DJ Consolaaa_19
+  - first:
+      213: -1732905438782273037
+    second: DJ Consolaaa_20
+  - first:
+      213: 8975926067085825486
+    second: DJ Consolaaa_21
+  - first:
+      213: -4052852926350690896
+    second: DJ Consolaaa_22
+  - first:
+      213: 5828746671303922725
+    second: DJ Consolaaa_23
+  - first:
+      213: -8357194193923531425
+    second: DJ Consolaaa_24
+  - first:
+      213: -6621796109259314281
+    second: DJ Consolaaa_25
+  - first:
+      213: 6039297674227542052
+    second: DJ Consolaaa_26
+  - first:
+      213: 2228504173534363494
+    second: DJ Consolaaa_27
+  - first:
+      213: 8167766901558036961
+    second: DJ Consolaaa_28
+  - first:
+      213: 3106363755739121475
+    second: DJ Consolaaa_29
+  - first:
+      213: 8426348222966521790
+    second: DJ Consolaaa_30
+  - first:
+      213: 6627456559297997004
+    second: DJ Consolaaa_31
+  - first:
+      213: 846913244903027430
+    second: DJ Consolaaa_32
+  - first:
+      213: 5049150782219439359
+    second: DJ Consolaaa_33
+  - first:
+      213: -3582259207255012086
+    second: DJ Consolaaa_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DJ Consolaaa_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1536
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf31301b8d1a3e30800000000000000
+      internalID: 4483928862110072797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJ Consolaaa_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 849
+        width: 102
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 503e5b3e507f2d190800000000000000
+      internalID: -7939011588433517819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJ Consolaaa_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 996
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637ac5f1434f31ba0800000000000000
+      internalID: -6119278963964729546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJ Consolaaa_3
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1017
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a34bc141c0d7170800000000000000
+      internalID: 8177705778895141412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJ Consolaaa_4
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 922
+        width: 48
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cabbbdf73bc516ef0800000000000000
+      internalID: -116710189320914004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJ Consolaaa_5
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 918
+        width: 12
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a9abc7b2cc05ecc0800000000000000
+      internalID: -3682523089858745944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJ Consolaaa_6
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 989
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e99e53285ed950d0800000000000000
+      internalID: -3433468770761401884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJ Consolaaa_7
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 819
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18fc278cec0711f80800000000000000
+      internalID: -8137599018253234303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJ Consolaaa_8
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 847
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e2b968e7ccd454e0800000000000000
+      internalID: -1993725983862443296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJ Consolaaa_9
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 838
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8177db9d5871de200800000000000000
+      internalID: 210850621207443224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJ Consolaaa_10
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 788
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1702c701219922c50800000000000000
+      internalID: 6639037103562563697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJ Consolaaa_11
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 810
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54fc77bb148351190800000000000000
+      internalID: -7992420108729856187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJ Consolaaa_12
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 790
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89fdbf0454c1ba650800000000000000
+      internalID: 6245116392047894424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJ Consolaaa_13
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 766
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e4d14ed224dd9a0800000000000000
+      internalID: -6206731946578588104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJ Consolaaa_14
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 777
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f36bc404de0893d0800000000000000
+      internalID: -3199791231470443530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJ Consolaaa_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 670
+        width: 240
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09eefb4facb10f1f0800000000000000
+      internalID: -1013279357654798704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJ Consolaaa_16
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 749
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 074298f740a1501f0800000000000000
+      internalID: -1079427929063480208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJ Consolaaa_17
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 728
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58dc6d37194298640800000000000000
+      internalID: 5082633861596630405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJ Consolaaa_18
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 496
+        width: 60
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f1e5c1e49859920800000000000000
+      internalID: 2996452095661318033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJ Consolaaa_19
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 571
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d349753ec71851b0800000000000000
+      internalID: -5667753956617927719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJ Consolaaa_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 278
+        width: 29
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f94a0c4fab73f7e0800000000000000
+      internalID: -1732905438782273037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJ Consolaaa_21
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 278
+        width: 60
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec5d1d69335e09c70800000000000000
+      internalID: 8975926067085825486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJ Consolaaa_22
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 218
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b5f6f58cbf51c7c0800000000000000
+      internalID: -4052852926350690896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJ Consolaaa_23
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 126
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5249fcc273ed3e050800000000000000
+      internalID: 5828746671303922725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJ Consolaaa_24
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 113
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d1b30b828450c80800000000000000
+      internalID: -8357194193923531425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJ Consolaaa_25
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 98
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79be88cb587aa14a0800000000000000
+      internalID: -6621796109259314281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJ Consolaaa_26
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 59
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 428ec25bc35efc350800000000000000
+      internalID: 6039297674227542052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJ Consolaaa_27
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 0
+        width: 37
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66fbdfb1dbc3dee10800000000000000
+      internalID: 2228504173534363494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJ Consolaaa_28
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 27
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e94f87e8bcb95170800000000000000
+      internalID: 8167766901558036961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJ Consolaaa_29
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 30
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3478afba0650c1b20800000000000000
+      internalID: 3106363755739121475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJ Consolaaa_30
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 10
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebfd9a7601760f470800000000000000
+      internalID: 8426348222966521790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJ Consolaaa_31
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 0
+        width: 6
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc82a4d70a479fb50800000000000000
+      internalID: 6627456559297997004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJ Consolaaa_32
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 0
+        width: 80
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2b40eeb17d0cb00800000000000000
+      internalID: 846913244903027430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJ Consolaaa_33
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 4
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc439782ef221640800000000000000
+      internalID: 5049150782219439359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DJ Consolaaa_34
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 0
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d413a0b32494ec0800000000000000
+      internalID: -3582259207255012086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DJ Consolaaa_0: 4483928862110072797
+      DJ Consolaaa_1: -7939011588433517819
+      DJ Consolaaa_10: 6639037103562563697
+      DJ Consolaaa_11: -7992420108729856187
+      DJ Consolaaa_12: 6245116392047894424
+      DJ Consolaaa_13: -6206731946578588104
+      DJ Consolaaa_14: -3199791231470443530
+      DJ Consolaaa_15: -1013279357654798704
+      DJ Consolaaa_16: -1079427929063480208
+      DJ Consolaaa_17: 5082633861596630405
+      DJ Consolaaa_18: 2996452095661318033
+      DJ Consolaaa_19: -5667753956617927719
+      DJ Consolaaa_2: -6119278963964729546
+      DJ Consolaaa_20: -1732905438782273037
+      DJ Consolaaa_21: 8975926067085825486
+      DJ Consolaaa_22: -4052852926350690896
+      DJ Consolaaa_23: 5828746671303922725
+      DJ Consolaaa_24: -8357194193923531425
+      DJ Consolaaa_25: -6621796109259314281
+      DJ Consolaaa_26: 6039297674227542052
+      DJ Consolaaa_27: 2228504173534363494
+      DJ Consolaaa_28: 8167766901558036961
+      DJ Consolaaa_29: 3106363755739121475
+      DJ Consolaaa_3: 8177705778895141412
+      DJ Consolaaa_30: 8426348222966521790
+      DJ Consolaaa_31: 6627456559297997004
+      DJ Consolaaa_32: 846913244903027430
+      DJ Consolaaa_33: 5049150782219439359
+      DJ Consolaaa_34: -3582259207255012086
+      DJ Consolaaa_4: -116710189320914004
+      DJ Consolaaa_5: -3682523089858745944
+      DJ Consolaaa_6: -3433468770761401884
+      DJ Consolaaa_7: -8137599018253234303
+      DJ Consolaaa_8: -1993725983862443296
+      DJ Consolaaa_9: 210850621207443224
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
