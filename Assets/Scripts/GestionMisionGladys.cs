@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections; // 🔥 Agregado para poder usar la corutina de tiempo (IEnumerator)
 
 public class GestionMisionGladys : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class GestionMisionGladys : MonoBehaviour
     
     [Header("Nueva Interfaz")]
     [SerializeField] private GameObject cartelNuevoMisionCumplida; // Tu objeto "PopUpMISIONcumplida 1_0"
+    [SerializeField] private GameObject tildeCanvas;               // 🔥 NUEVO: Arrastrá acá el tilde verde de tu Canvas
 
     private bool misionCompletada = false;
     private bool cartelFinalVisible = false;
@@ -18,6 +20,7 @@ public class GestionMisionGladys : MonoBehaviour
         if (panelPopUpDialogo != null) panelPopUpDialogo.SetActive(false);
         if (cartelNuevoMisionCumplida != null) cartelNuevoMisionCumplida.SetActive(false);
         if (signoExclamacion != null) signoExclamacion.SetActive(true);
+        if (tildeCanvas != null) tildeCanvas.SetActive(false); // 🔥 El tilde arranca oculto
         
         misionCompletada = false;
         cartelFinalVisible = false;
@@ -25,10 +28,9 @@ public class GestionMisionGladys : MonoBehaviour
 
     void Update()
     {
-        // 🚨 SI EL CARTEL ESTÁ VISIBLE: No importa nada más, el Enter O EL CLIC lo tienen que apagar
+        // 🚨 SI EL CARTEL ESTÁ VISIBLE: El Enter O EL CLIC lo pueden apagar antes de tiempo
         if (cartelFinalVisible)
         {
-            // Forzamos la lectura en crudo de Unity para Enter (tanto normal como teclado numérico), Espacio o Clic
             if (Input.GetKeyDown(KeyCode.Return) || 
                 Input.GetKeyDown(KeyCode.KeypadEnter) || 
                 Input.GetKeyDown(KeyCode.Space) || 
@@ -58,7 +60,6 @@ public class GestionMisionGladys : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        // 🚨 SI YA GANASTE, ignorá por completo si el jugador se aleja
         if (misionCompletada) return;
 
         if (other.CompareTag("Player"))
@@ -73,7 +74,6 @@ public class GestionMisionGladys : MonoBehaviour
 
         if (other.gameObject.name.Contains("sacoamarillo"))
         {
-            // Respaldo por si se suelta justo adentro
             if (Input.GetMouseButtonUp(0) || Input.GetKeyUp(KeyCode.Space))
             {
                 FinalizarMision(other.gameObject);
@@ -83,11 +83,9 @@ public class GestionMisionGladys : MonoBehaviour
 
     private void FinalizarMision(GameObject saco)
     {
-        // Activamos los estados ANTES de apagar objetos para que Unity no se maree
         misionCompletada = true;
-        cartelFinalVisible = true; 
 
-        Debug.Log("¡Misión completada! Activando PopUpMISIONcumplida 1_0");
+        Debug.Log("¡Misión completada! Activando PopUpMISIONcumplida y Tilde de Gladys");
 
         // 1. Borramos el signo de exclamación
         if (signoExclamacion != null) signoExclamacion.SetActive(false);
@@ -98,11 +96,8 @@ public class GestionMisionGladys : MonoBehaviour
         // 3. Apagamos el saco amarillo de la escena
         if (saco != null) saco.SetActive(false);
 
-        // 4. Encendemos el cartel nuevo
-        if (cartelNuevoMisionCumplida != null)
-        {
-            cartelNuevoMisionCumplida.SetActive(true);
-        }
+        // 4. 🔥 MODIFICADO: Lanzamos la corutina para manejar el cartel por tiempo y prender el tilde
+        StartCoroutine(MostrarCartelPorTiempo());
 
         // 5. 😊 EVOLUCIÓN: Buscamos el script único en Gladys y lo ponemos feliz
         EvolucionGladys evo = GetComponent<EvolucionGladys>();
@@ -115,7 +110,7 @@ public class GestionMisionGladys : MonoBehaviour
             Debug.LogWarning("No se encontró el componente de Evolución (EvolucionGladys) en Gladys.");
         }
 
-        // 📢 ¡NUEVO! Le avisamos al GameManager central que Gladys tiene su saco
+        // 📢 GameManager central: Suma la misión cumplida
         if (GameManager.Instance != null)
         {
             GameManager.Instance.RegistrarMisionCumplida();
@@ -126,14 +121,30 @@ public class GestionMisionGladys : MonoBehaviour
         }
     }
 
+    // ✨ NUEVA CORUTINA: Controla de forma asíncrona los 3 segundos de exposición del cartel
+    IEnumerator MostrarCartelPorTiempo()
+    {
+        if (cartelNuevoMisionCumplida != null) cartelNuevoMisionCumplida.SetActive(true);
+        if (tildeCanvas != null) tildeCanvas.SetActive(true); // 🔥 Se prende tu tilde en el Canvas
+        
+        cartelFinalVisible = true;
+
+        // Espera exactamente 3 segundos reales de juego
+        yield return new WaitForSeconds(3f);
+
+        CerrarCartelFinal();
+    }
+
     private void CerrarCartelFinal()
     {
+        StopAllCoroutines(); // Frena el contador por si el jugador presionó una tecla antes de los 3 segundos
         cartelFinalVisible = false;
         
         if (cartelNuevoMisionCumplida != null)
         {
             cartelNuevoMisionCumplida.SetActive(false);
-            Debug.Log("¡Cartel congelado desatascado y cerrado!");
+            Debug.Log("¡Cartel de Gladys cerrado de forma limpia!");
         }
+        // Nota: El tildeCanvas NO se apaga para que quede marcado en el HUD de la UI.
     }
 }

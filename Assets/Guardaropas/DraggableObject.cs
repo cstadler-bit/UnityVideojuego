@@ -7,17 +7,16 @@ public class DraggableObject : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     
     private bool isBeingCarried = false;
-    private bool isBlinking = false; // Nos avisa si la campera está titilando en este momento
+    private bool isBlinking = false; // Nos avisa si la campera está titilando
 
     [Header("Configuración de Cercanía")]
     [SerializeField] private float distanciaParaInteractuar = 1.5f; // Qué tan cerca tiene que estar el Player
 
-    [Header("Efecto de Apilado Multi-Campera")]
-    [SerializeField] private float separacionPorCampera = 0.25f; // Cuánto se desfasa hacia arriba cada campera nueva
+    [Header("Configuración de Posición al Cargar")]
+    [SerializeField] private Vector3 posicionRelativaAlJugador = new Vector3(0.2f, 0.1f, 0f); // Posición fija al llevarla
 
     void Start()
     {
-        Debug.Log("start", gameObject);
         spriteRenderer = GetComponent<SpriteRenderer>();
 
         // Buscamos al objeto "Player" en la escena automáticamente usando su etiqueta
@@ -34,22 +33,16 @@ public class DraggableObject : MonoBehaviour
 
     void Update()
     {
-        // Si el personaje ya la agarró, se mueve pegada a él
+        // Si el personaje ya la agarró, se mueve en una posición fija pegada a él
         if (isBeingCarried && playerTransform != null)
         {
-            // Contamos cuántas camperas ya tiene el jugador para calcular la altura de esta
-            int indiceApilado = ContarCamperasEnPlayer();
-
-            // Modificamos el eje Y multiplicándolo por su lugar en la pila
-            float desplazamientoY = 0.1f + (indiceApilado * separacionPorCampera);
-
-            transform.position = playerTransform.position + new Vector3(0.2f, desplazamientoY, 0f);
+            transform.position = playerTransform.position + posicionRelativaAlJugador;
         }
 
         // DETECCIÓN DE LA BARRA ESPACIADORA
         if (Input.GetKeyDown(KeyCode.Space) && playerTransform != null)
         {
-            // Si ESTA campera en específico ya la llevás puesta, la barra espaciadora la deja en el piso
+            // Si ESTA campera en específico ya la llevás puesta, la barra la deja en el piso
             if (isBeingCarried)
             {
                 DropCoat();
@@ -61,36 +54,27 @@ public class DraggableObject : MonoBehaviour
 
             if (distanciaActual <= distanciaParaInteractuar)
             {
-                // 🔥 MODIFICADO: Agarra la campera de UNA con un solo espacio
-                GrabCoat();
+                // 🔥 LA SOLUCIÓN: Buscamos si el jugador ya está cargando OTRA campera como objeto hijo
+                DraggableObject camperaEquipada = playerTransform.GetComponentInChildren<DraggableObject>();
+
+                if (camperaEquipada == null)
+                {
+                    // Si no tiene ninguna campera encima, lo dejamos agarrar esta
+                    GrabCoat();
+                }
+                else
+                {
+                    // Si ya tiene una, cancelamos la acción
+                    Debug.Log("¡Ya estás cargando una campera! Tenés que soltarla antes de agarrar otra.");
+                }
             }
         }
     }
 
-    // Función auxiliar para saber cuántas camperas se están cargando ahora mismo
-    int ContarCamperasEnPlayer()
-    {
-        int contador = 0;
-        // Buscamos todos los scripts "DraggableObject" que tengan al Player como padre
-        DraggableObject[] todasLasCamperas = playerTransform.GetComponentsInChildren<DraggableObject>();
-        
-        for (int i = 0; i < todasLasCamperas.Length; i++)
-        {
-            // Si la campera de la lista es ESTA misma, frenamos el conteo acá
-            if (todasLasCamperas[i] == this)
-            {
-                return contador;
-            }
-            contador++;
-        }
-        return contador;
-    }
-
-    // Efecto de titileo por opacidad (Por si querés usarlo al agarrarla o en otro momento)
+    // Efecto de titileo por opacidad 
     IEnumerator BlinkEffect()
     {
         isBlinking = true;
-        Debug.Log("Titilando " + gameObject.name);
 
         for (int i = 0; i < 6; i++)
         {
@@ -118,9 +102,7 @@ public class DraggableObject : MonoBehaviour
         if (spriteRenderer != null)
         {
             spriteRenderer.color = Color.white;
-            
-            // Le aumentamos dinámicamente el Sorting Order según cuántas lleve
-            spriteRenderer.sortingOrder = 10 + ContarCamperasEnPlayer();
+            spriteRenderer.sortingOrder = 12; // Un orden alto fijo para que se renderice siempre frente al personaje
         }
 
         if (playerTransform != null)
@@ -128,7 +110,7 @@ public class DraggableObject : MonoBehaviour
             transform.SetParent(playerTransform);
         }
 
-        Debug.Log("¡Campera agregada a la pila con 1 solo Espacio!");
+        Debug.Log("¡Campera agarrada con éxito!");
     }
 
     void DropCoat()
@@ -141,10 +123,10 @@ public class DraggableObject : MonoBehaviour
 
         if (spriteRenderer != null)
         {
-            // Volvemos el sorting order a un número base en el piso (ej: 2)
+            // Volvemos el sorting order a un número base en el piso
             spriteRenderer.sortingOrder = 2; 
         }
 
-        Debug.Log("¡Campera soltada de la pila!");
+        Debug.Log("¡Campera soltada en el piso!");
     }
 }

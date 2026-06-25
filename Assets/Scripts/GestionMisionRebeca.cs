@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class GestionMisionNuevoPersonaje : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class GestionMisionNuevoPersonaje : MonoBehaviour
     
     [Header("Nueva Interfaz (Éxito)")]
     [SerializeField] private GameObject cartelMisionCumplida; 
+    [SerializeField] private GameObject tildeCanvas; 
 
     private bool misionesCompletada = false;
     private bool cartelFinalVisible = false;
@@ -17,6 +19,7 @@ public class GestionMisionNuevoPersonaje : MonoBehaviour
         if (panelPopUpDialogo != null) panelPopUpDialogo.SetActive(false);
         if (cartelMisionCumplida != null) cartelMisionCumplida.SetActive(false);
         if (signoExclamacion != null) signoExclamacion.SetActive(true);
+        if (tildeCanvas != null) tildeCanvas.SetActive(false); 
         
         misionesCompletada = false;
         cartelFinalVisible = false;
@@ -45,7 +48,6 @@ public class GestionMisionNuevoPersonaje : MonoBehaviour
             if (panelPopUpDialogo != null) panelPopUpDialogo.SetActive(true);
         }
         
-        // 🟢 DETECCIÓN DEL SACO CORRECTO
         if (other.gameObject.name.ToLower().Contains("sacopeludo"))
         {
             FinalizarMision(other.gameObject);
@@ -66,53 +68,62 @@ public class GestionMisionNuevoPersonaje : MonoBehaviour
     {
         misionesCompletada = true;
         
-        // 1. Apagamos el signo y el diálogo base
-        if (signoExclamacion != null) signoExclamacion.SetActive(false);
+        // 1. 🔥 CORREGIDO: En vez de hacer SetActive(false), solo apagamos lo visual y el colisionador.
+        // Esto evita que el script muera antes de que termine la corutina de 3 segundos.
+        if (signoExclamacion != null) 
+        {
+            SpriteRenderer renderizador = signoExclamacion.GetComponent<SpriteRenderer>();
+            Collider2D colisionador = signoExclamacion.GetComponent<Collider2D>();
+            
+            if (renderizador != null) renderizador.enabled = false;
+            if (colisionador != null) colisionador.enabled = false;
+        }
+
         if (panelPopUpDialogo != null) panelPopUpDialogo.SetActive(false);
-        
-        // 2. Destruimos o apagamos el saco del mapa
         if (saco != null) saco.SetActive(false);
 
-        // 3. 🔥 TRUCO DE SEGURIDAD: Apagamos el script de error para que no moleste
         DetectorCamperaEquivocada scriptError = GetComponent<DetectorCamperaEquivocada>();
         if (scriptError != null) scriptError.enabled = false;
 
-        // 4. 🔥 PRENDEMOS EL CARTEL DE ÉXITO
-        if (cartelMisionCumplida != null) 
-        {
-            cartelMisionCumplida.SetActive(true);
-            cartelFinalVisible = true; 
-            Debug.Log("¡Cartel de éxito encendido con éxito!");
-        }
+        // Arrancamos el conteo de 3 segundos con el script totalmente vivo
+        StartCoroutine(MostrarCartelPorTiempo());
 
-        // 5. 😊 EVOLUCIÓN: Buscamos el script único de evolución y lo ponemos feliz
         EvolucionGladys evo = GetComponent<EvolucionGladys>();
         if (evo != null) 
         {
             evo.ForzarCaraFeliz();
         }
-        else
-        {
-            Debug.LogWarning("No se encontró el componente de Evolución (EvolucionGladys) en este personaje.");
-        }
 
-        // 📢 GameManager central: Suma la misión cumplida
         if (GameManager.Instance != null)
         {
             GameManager.Instance.RegistrarMisionCumplida();
         }
-        else
-        {
-            Debug.LogWarning("¡Ojo! No se encontró el GameManager en la escena.");
-        }
+    }
+
+    IEnumerator MostrarCartelPorTiempo()
+    {
+        if (cartelMisionCumplida != null) cartelMisionCumplida.SetActive(true);
+        if (tildeCanvas != null) tildeCanvas.SetActive(true); 
+        
+        cartelFinalVisible = true; 
+
+        yield return new WaitForSeconds(3f);
+
+        CerrarCartelFinal();
     }
 
     private void CerrarCartelFinal()
     {
+        StopAllCoroutines(); 
+        
         cartelFinalVisible = false;
         if (cartelMisionCumplida != null)
         {
             cartelMisionCumplida.SetActive(false);
         }
+
+        // 🔥 OPCIONAL: Ahora que todo terminó y el cartel se cerró, 
+        // desactivamos por completo este GameObject para limpiar la escena.
+        gameObject.SetActive(false);
     }
 }
