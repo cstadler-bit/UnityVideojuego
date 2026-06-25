@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 6e8738380dd034d47a2ea40a74219516
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1773888351128985708
+    second: "cumplea\xF1era_0"
+  - first:
+      213: 6653633360009929768
+    second: "cumplea\xF1era_1"
+  - first:
+      213: 7872159883458448749
+    second: "cumplea\xF1era_2"
+  - first:
+      213: -3929647849425730211
+    second: "cumplea\xF1era_3"
+  - first:
+      213: -1985327770198770942
+    second: "cumplea\xF1era_4"
+  - first:
+      213: -5519917977972745374
+    second: "cumplea\xF1era_5"
+  - first:
+      213: -6447189501735129868
+    second: "cumplea\xF1era_6"
+  - first:
+      213: -560317900786144726
+    second: "cumplea\xF1era_7"
+  - first:
+      213: 7653933587627782627
+    second: "cumplea\xF1era_8"
+  - first:
+      213: -6860750589073651270
+    second: "cumplea\xF1era_9"
+  - first:
+      213: -3652889283904581908
+    second: "cumplea\xF1era_10"
+  - first:
+      213: -3618200987853039977
+    second: "cumplea\xF1era_11"
+  - first:
+      213: -8460006428489721046
+    second: "cumplea\xF1era_12"
+  - first:
+      213: 2538380962330692789
+    second: "cumplea\xF1era_13"
+  - first:
+      213: 4151526552568068168
+    second: "cumplea\xF1era_14"
+  - first:
+      213: -8862724407373125319
+    second: "cumplea\xF1era_15"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "cumplea\xF1era_0"
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 808
+        width: 122
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49fd0cf61f1e167e0800000000000000
+      internalID: -1773888351128985708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cumplea\xF1era_1"
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 808
+        width: 122
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 824a419d944765c50800000000000000
+      internalID: 6653633360009929768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cumplea\xF1era_2"
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 808
+        width: 122
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d0f9c94b78f3d60800000000000000
+      internalID: 7872159883458448749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cumplea\xF1era_3"
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 808
+        width: 122
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d550a92e9161779c0800000000000000
+      internalID: -3929647849425730211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cumplea\xF1era_4"
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 542
+        width: 122
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20b759669e2b274e0800000000000000
+      internalID: -1985327770198770942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cumplea\xF1era_5"
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 542
+        width: 122
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b54a548df4563b0800000000000000
+      internalID: -5519917977972745374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cumplea\xF1era_6"
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 542
+        width: 122
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc237d8e4bf686a0800000000000000
+      internalID: -6447189501735129868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cumplea\xF1era_7"
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 542
+        width: 122
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a695286d95938f0800000000000000
+      internalID: -560317900786144726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cumplea\xF1era_8"
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 284
+        width: 122
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e13cf0bb0c383a60800000000000000
+      internalID: 7653933587627782627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cumplea\xF1era_9"
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 284
+        width: 122
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab986b560b7b9c0a0800000000000000
+      internalID: -6860750589073651270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cumplea\xF1era_10"
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 284
+        width: 122
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee4905dc845e4dc0800000000000000
+      internalID: -3652889283904581908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cumplea\xF1era_11"
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 284
+        width: 122
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7965d012f5199cdc0800000000000000
+      internalID: -3618200987853039977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cumplea\xF1era_12"
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 22
+        width: 122
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2b5950f9f4089a80800000000000000
+      internalID: -8460006428489721046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cumplea\xF1era_13"
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 22
+        width: 122
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bcc55c49042a3320800000000000000
+      internalID: 2538380962330692789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cumplea\xF1era_14"
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 22
+        width: 122
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 848fb61676f2d9930800000000000000
+      internalID: 4151526552568068168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cumplea\xF1era_15"
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 22
+        width: 122
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9392754bb17410580800000000000000
+      internalID: -8862724407373125319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4b879f9ff6865634482a977a6400fcd0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "cumplea\xF1era_0": -1773888351128985708
+      "cumplea\xF1era_1": 6653633360009929768
+      "cumplea\xF1era_10": -3652889283904581908
+      "cumplea\xF1era_11": -3618200987853039977
+      "cumplea\xF1era_12": -8460006428489721046
+      "cumplea\xF1era_13": 2538380962330692789
+      "cumplea\xF1era_14": 4151526552568068168
+      "cumplea\xF1era_15": -8862724407373125319
+      "cumplea\xF1era_2": 7872159883458448749
+      "cumplea\xF1era_3": -3929647849425730211
+      "cumplea\xF1era_4": -1985327770198770942
+      "cumplea\xF1era_5": -5519917977972745374
+      "cumplea\xF1era_6": -6447189501735129868
+      "cumplea\xF1era_7": -560317900786144726
+      "cumplea\xF1era_8": 7653933587627782627
+      "cumplea\xF1era_9": -6860750589073651270
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
