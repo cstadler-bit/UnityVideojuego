@@ -1,55 +1,43 @@
 fileFormatVersion: 2
-guid: a4313e27d3ad7544ca16c16634f32bd7
+guid: c21fe35f47cdc04479bf076649d0fa32
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5435681002516955486
-    second: tioborracho_0
+      213: -3931010181133462088
+    second: RebecaconSaco_0
   - first:
-      213: -675502182275247580
-    second: tioborracho_1
+      213: 4638314821699762958
+    second: RebecaconSaco_1
   - first:
-      213: -1970214642103158361
-    second: tioborracho_2
+      213: -9069831406417223501
+    second: RebecaconSaco_2
   - first:
-      213: -576921126079183490
-    second: tioborracho_3
+      213: 5230779155726797386
+    second: RebecaconSaco_3
   - first:
-      213: -1417527871317080033
-    second: tioborracho_4
+      213: 2517056397698493
+    second: RebecaconSaco_4
   - first:
-      213: 7136541184710625580
-    second: tioborracho_5
+      213: -259722942166823003
+    second: RebecaconSaco_5
   - first:
-      213: 6160374177579788404
-    second: tioborracho_6
+      213: 3949565477212748833
+    second: RebecaconSaco_6
   - first:
-      213: -5034110955351249915
-    second: tioborracho_7
+      213: 1005713911270738813
+    second: RebecaconSaco_7
   - first:
-      213: -5831937680724395625
-    second: tioborracho_8
+      213: -2046084128768877092
+    second: RebecaconSaco_8
   - first:
-      213: 3167792966541304282
-    second: tioborracho_9
+      213: 5982888404963602751
+    second: RebecaconSaco_9
   - first:
-      213: -3834736686831680536
-    second: tioborracho_10
+      213: -2676837336386193820
+    second: RebecaconSaco_10
   - first:
-      213: -5005035011450926991
-    second: tioborracho_11
-  - first:
-      213: 1165338160927725320
-    second: tioborracho_12
-  - first:
-      213: -6003417305779341451
-    second: tioborracho_13
-  - first:
-      213: -709989792331091177
-    second: tioborracho_14
-  - first:
-      213: -678413651923208839
-    second: tioborracho_15
+      213: -7380876867772009739
+    second: RebecaconSaco_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -145,353 +133,265 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tioborracho_0
+      name: RebecaconSaco_0
       rect:
         serializedVersion: 2
-        x: 585
-        y: 811
-        width: 128
-        height: 238
+        x: 653
+        y: 805
+        width: 101
+        height: 243
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2ae33ac7de49094b0800000000000000
-      internalID: -5435681002516955486
+      spriteID: 8b59811511f3279c0800000000000000
+      internalID: -3931010181133462088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tioborracho_1
+      name: RebecaconSaco_1
       rect:
         serializedVersion: 2
-        x: 776
-        y: 810
-        width: 130
-        height: 237
+        x: 899
+        y: 805
+        width: 96
+        height: 243
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4229b7c185220a6f0800000000000000
-      internalID: -675502182275247580
+      spriteID: e0bf7d761ca9e5040800000000000000
+      internalID: 4638314821699762958
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tioborracho_2
+      name: RebecaconSaco_2
       rect:
         serializedVersion: 2
-        x: 967
-        y: 809
-        width: 129
-        height: 238
+        x: 1110
+        y: 806
+        width: 104
+        height: 242
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7a9fa2eb83468a4e0800000000000000
-      internalID: -1970214642103158361
+      spriteID: 3b0e1dfc36c712280800000000000000
+      internalID: -9069831406417223501
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tioborracho_3
+      name: RebecaconSaco_3
       rect:
         serializedVersion: 2
-        x: 1162
-        y: 811
-        width: 129
+        x: 644
+        y: 547
+        width: 104
         height: 239
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e75c1a0ea4d5ef7f0800000000000000
-      internalID: -576921126079183490
+      spriteID: a4a0d93ade5779840800000000000000
+      internalID: 5230779155726797386
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tioborracho_4
+      name: RebecaconSaco_4
       rect:
         serializedVersion: 2
-        x: 590
-        y: 554
-        width: 120
-        height: 239
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f180ee259ede35ce0800000000000000
-      internalID: -1417527871317080033
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tioborracho_5
-      rect:
-        serializedVersion: 2
-        x: 784
-        y: 554
-        width: 117
-        height: 241
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c294f9f75661a0360800000000000000
-      internalID: 7136541184710625580
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tioborracho_6
-      rect:
-        serializedVersion: 2
-        x: 974
-        y: 555
-        width: 120
-        height: 238
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 478e12aecab0e7550800000000000000
-      internalID: 6160374177579788404
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tioborracho_7
-      rect:
-        serializedVersion: 2
-        x: 1167
-        y: 555
-        width: 120
-        height: 239
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 50ce26a02ce332ab0800000000000000
-      internalID: -5034110955351249915
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tioborracho_8
-      rect:
-        serializedVersion: 2
-        x: 567
-        y: 274
-        width: 122
-        height: 247
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 799f43c049bc01fa0800000000000000
-      internalID: -5831937680724395625
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tioborracho_9
-      rect:
-        serializedVersion: 2
-        x: 762
-        y: 272
-        width: 123
-        height: 246
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ad1ecac5be246fb20800000000000000
-      internalID: 3167792966541304282
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tioborracho_10
-      rect:
-        serializedVersion: 2
-        x: 956
-        y: 274
-        width: 124
-        height: 245
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8e34d36fc4748cac0800000000000000
-      internalID: -3834736686831680536
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tioborracho_11
-      rect:
-        serializedVersion: 2
-        x: 1155
-        y: 272
-        width: 122
-        height: 246
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1780316cc2b8a8ab0800000000000000
-      internalID: -5005035011450926991
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tioborracho_12
-      rect:
-        serializedVersion: 2
-        x: 564
-        y: 13
-        width: 124
+        x: 891
+        y: 546
+        width: 96
         height: 240
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 807dd4512ec1c2010800000000000000
-      internalID: 1165338160927725320
+      spriteID: db5e67cdf31f80000800000000000000
+      internalID: 2517056397698493
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tioborracho_13
+      name: RebecaconSaco_5
       rect:
         serializedVersion: 2
-        x: 760
-        y: 13
-        width: 124
+        x: 1107
+        y: 546
+        width: 107
         height: 240
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 1}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 577f69294c39faca0800000000000000
-      internalID: -6003417305779341451
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tioborracho_14
-      rect:
-        serializedVersion: 2
-        x: 963
-        y: 19
-        width: 114
-        height: 234
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 713b3f9ab0c9526f0800000000000000
-      internalID: -709989792331091177
+      spriteID: 5af80243c57456cf0800000000000000
+      internalID: -259722942166823003
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tioborracho_15
+      name: RebecaconSaco_6
       rect:
         serializedVersion: 2
-        x: 1155
-        y: 13
-        width: 124
-        height: 240
+        x: 640
+        y: 314
+        width: 102
+        height: 221
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9757752c06ac596f0800000000000000
-      internalID: -678413651923208839
+      spriteID: 12c796630ecafc630800000000000000
+      internalID: 3949565477212748833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RebecaconSaco_7
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 312
+        width: 87
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7b06fa497305fd00800000000000000
+      internalID: 1005713911270738813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RebecaconSaco_8
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 314
+        width: 100
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd9a245359da93e0800000000000000
+      internalID: -2046084128768877092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RebecaconSaco_9
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 64
+        width: 102
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31b8ac3e4d770350800000000000000
+      internalID: 5982888404963602751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RebecaconSaco_10
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 61
+        width: 88
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466b23300a6f9dad0800000000000000
+      internalID: -2676837336386193820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RebecaconSaco_11
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 66
+        width: 103
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f23d85289bd19990800000000000000
+      internalID: -7380876867772009739
       vertices: []
       indices: 
       edges: []
@@ -500,7 +400,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 525424c6ae000284c89e6bc875cb9f2f
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -510,22 +410,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      tioborracho_0: -5435681002516955486
-      tioborracho_1: -675502182275247580
-      tioborracho_10: -3834736686831680536
-      tioborracho_11: -5005035011450926991
-      tioborracho_12: 1165338160927725320
-      tioborracho_13: -6003417305779341451
-      tioborracho_14: -709989792331091177
-      tioborracho_15: -678413651923208839
-      tioborracho_2: -1970214642103158361
-      tioborracho_3: -576921126079183490
-      tioborracho_4: -1417527871317080033
-      tioborracho_5: 7136541184710625580
-      tioborracho_6: 6160374177579788404
-      tioborracho_7: -5034110955351249915
-      tioborracho_8: -5831937680724395625
-      tioborracho_9: 3167792966541304282
+      RebecaconSaco_0: -3931010181133462088
+      RebecaconSaco_1: 4638314821699762958
+      RebecaconSaco_10: -2676837336386193820
+      RebecaconSaco_11: -7380876867772009739
+      RebecaconSaco_2: -9069831406417223501
+      RebecaconSaco_3: 5230779155726797386
+      RebecaconSaco_4: 2517056397698493
+      RebecaconSaco_5: -259722942166823003
+      RebecaconSaco_6: 3949565477212748833
+      RebecaconSaco_7: 1005713911270738813
+      RebecaconSaco_8: -2046084128768877092
+      RebecaconSaco_9: 5982888404963602751
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
