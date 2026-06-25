@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -7,6 +8,7 @@ public class GameManager : MonoBehaviour
 
     [Header("Interfaz Final")]
     [SerializeField] private GameObject cartelJuegoFinalizado; // El pop-up de fin de juego
+    [SerializeField] private string nombreEscenaMenu = "Menu"; // Nombre exacto de la escena menú
 
     private int misionesCompletadasCount = 0;
     private const int TOTAL_MISIONES = 2; // Gladys + Rebeca
@@ -28,6 +30,17 @@ public class GameManager : MonoBehaviour
     {
         // El cartel arranca apagado sí o sí
         if (cartelJuegoFinalizado != null) cartelJuegoFinalizado.SetActive(false);
+    }
+
+    void Update()
+    {
+        if (cartelJuegoFinalizado != null && cartelJuegoFinalizado.activeSelf)
+        {
+            if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
+            {
+                SceneManager.LoadScene(nombreEscenaMenu);
+            }
+        }
     }
 
     // Esta función la van a llamar los personajes al dar la campera correcta
