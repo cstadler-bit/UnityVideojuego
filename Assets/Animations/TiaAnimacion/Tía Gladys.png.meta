@@ -190,6 +190,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: "T\xEDa Gladys_0"
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 1059
+        width: 197
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434b7644da16ee544a00b2796a2d9f08
+      internalID: -3200545846440316178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []

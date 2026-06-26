@@ -191,23 +191,22 @@ public class GestionMisionNuevoPersonaje : MonoBehaviour
         CerrarCartelFinal();
     }
 
-    private void CerrarCartelFinal()
-    {
-        StopAllCoroutines();
+   private void CerrarCartelFinal()
+{
+    StopAllCoroutines();
 
-        cartelFinalVisible = false;
+    cartelFinalVisible = false;
 
-        if (cartelMisionCumplida != null)
-            cartelMisionCumplida.SetActive(false);
+    if (cartelMisionCumplida != null)
+        cartelMisionCumplida.SetActive(false);
 
-        if (tildeCanvas != null)
-            tildeCanvas.SetActive(false);
-    }
-    private void ApagarSignoExclamacion()
+    // NO apagamos tildeCanvas porque es el tick del menú superior
+    // y tiene que quedar marcado cuando la misión ya fue completada.
+}    private void ApagarSignoExclamacion()
 {
     if (signoExclamacion == null) return;
 
-    // Apaga todos los SpriteRenderer del signo, incluso si están en hijos
+    // Si el signo es un SpriteRenderer normal
     SpriteRenderer[] renderizadores = signoExclamacion.GetComponentsInChildren<SpriteRenderer>();
 
     foreach (SpriteRenderer renderizador in renderizadores)
@@ -215,15 +214,15 @@ public class GestionMisionNuevoPersonaje : MonoBehaviour
         renderizador.enabled = false;
     }
 
-    // Apaga todos los Collider2D del signo, incluso si están en hijos
-    Collider2D[] colisionadores = signoExclamacion.GetComponentsInChildren<Collider2D>();
+    // Si el signo es una imagen UI dentro de un Canvas
+    UnityEngine.UI.Image[] imagenes = signoExclamacion.GetComponentsInChildren<UnityEngine.UI.Image>();
 
-    foreach (Collider2D colisionador in colisionadores)
+    foreach (UnityEngine.UI.Image imagen in imagenes)
     {
-        colisionador.enabled = false;
+        imagen.enabled = false;
     }
 
-    // Si el signo es un Canvas o UI, también lo apagamos completo
-    signoExclamacion.SetActive(false);
+    // NO hacemos signoExclamacion.SetActive(false)
+    // porque este objeto también tiene el script de la misión.
 }
 }
