@@ -1,34 +1,49 @@
 using UnityEngine;
-using System.Collections; // 🔥 Agregado para poder usar la corutina de tiempo (IEnumerator)
+using System.Collections;
 
 public class GestionMisionGladys : MonoBehaviour
 {
     [Header("Referencias de la Misión")]
-    [SerializeField] private GameObject signoExclamacion;   // El signo flotante del pasillo
+    [SerializeField] private GameObject signoExclamacion;   
     [SerializeField] private GameObject panelPopUpDialogo;  // El cartel viejo ("Necesito mi saco...")
     
-    [Header("Nueva Interfaz")]
-    [SerializeField] private GameObject cartelNuevoMisionCumplida; // Tu objeto "PopUpMISIONcumplida 1_0"
-    [SerializeField] private GameObject tildeCanvas;               // 🔥 NUEVO: Arrastrá acá el tilde verde de tu Canvas
+    [Header("Nueva Interfaz (Éxito)")]
+    [SerializeField] private GameObject cartelNuevoMisionCumplida; 
+    [SerializeField] private GameObject tildeCanvas;               
+
+    [Header("Nueva Interfaz (Error)")]
+    // 🔥 NUEVO: Arrastrá acá tu pop-up de "Ese no es mi saco"
+    [SerializeField] private GameObject cartelSacoEquivocado; 
+
+    [Header("Animación y Movimiento Final")]
+    [SerializeField] private Animator animatorTia;           
+    [SerializeField] private float velocidadCaminata = 3f;    
+    [SerializeField] private Vector3 direccionSalida = new Vector3(1f, 0f, 0f); 
 
     private bool misionCompletada = false;
     private bool cartelFinalVisible = false;
+    private bool tiaCaminando = false; 
 
     void Start()
     {
-        // Nos aseguramos de que arranque todo en su estado inicial correcto
         if (panelPopUpDialogo != null) panelPopUpDialogo.SetActive(false);
         if (cartelNuevoMisionCumplida != null) cartelNuevoMisionCumplida.SetActive(false);
-        if (signoExclamacion != null) signoExclamacion.SetActive(true);
-        if (tildeCanvas != null) tildeCanvas.SetActive(false); // 🔥 El tilde arranca oculto
+        if (cartelSacoEquivocado != null) cartelSacoEquivocado.SetActive(false); // 🔥 Arranca apagado
+        if (signoExclamacion != null) signoExclamacion.SetActive(true); 
+        if (tildeCanvas != null) tildeCanvas.SetActive(false); 
         
         misionCompletada = false;
         cartelFinalVisible = false;
+        tiaCaminando = false;
     }
 
     void Update()
     {
-        // 🚨 SI EL CARTEL ESTÁ VISIBLE: El Enter O EL CLIC lo pueden apagar antes de tiempo
+        if (tiaCaminando)
+        {
+            transform.Translate(direccionSalida * velocidadCaminata * Time.deltaTime);
+        }
+
         if (cartelFinalVisible)
         {
             if (Input.GetKeyDown(KeyCode.Return) || 
@@ -41,20 +56,26 @@ public class GestionMisionGladys : MonoBehaviour
         }
     }
 
-    // 1. DETECTOR DE PASO (Abre y cierra el diálogo viejo al caminar)
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (misionCompletada) return;
 
         if (other.CompareTag("Player"))
         {
-            if (panelPopUpDialogo != null) panelPopUpDialogo.SetActive(true);
+            // Solo abrimos el cartel de pedido normal si NO está el cartel de error activo
+            if (panelPopUpDialogo != null && !cartelSacoEquivocado.activeSelf) 
+                panelPopUpDialogo.SetActive(true);
         }
         
-        // Si lo que entra es el saco amarillo, completamos de una
+        // 🟡 CHEQUEO DE ENTREGAS:
         if (other.gameObject.name.Contains("sacoamarillo"))
         {
             FinalizarMision(other.gameObject);
+        }
+        // 🔥 Si es una campera (DraggableObject) pero NO es el saco amarillo
+        else if (other.GetComponent<DraggableObject>() != null)
+        {
+            MostrarErrorSacoEquivocado();
         }
     }
 
@@ -65,6 +86,8 @@ public class GestionMisionGladys : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             if (panelPopUpDialogo != null) panelPopUpDialogo.SetActive(false);
+            // Si el jugador se aleja, también hacemos desaparecer el cartel de error
+            if (cartelSacoEquivocado != null) cartelSacoEquivocado.SetActive(false);
         }
     }
 
@@ -72,6 +95,7 @@ public class GestionMisionGladys : MonoBehaviour
     {
         if (misionCompletada) return;
 
+        // Si suelta el saco correcto adentro
         if (other.gameObject.name.Contains("sacoamarillo"))
         {
             if (Input.GetMouseButtonUp(0) || Input.GetKeyUp(KeyCode.Space))
@@ -79,72 +103,87 @@ public class GestionMisionGladys : MonoBehaviour
                 FinalizarMision(other.gameObject);
             }
         }
+        // 🔥 Si suelta un saco EQUIVOCADO adentro
+        else if (other.GetComponent<DraggableObject>() != null)
+        {
+            if (Input.GetMouseButtonUp(0) || Input.GetKeyUp(KeyCode.Space))
+            {
+                MostrarErrorSacoEquivocado();
+            }
+        }
+    }
+
+    // ✨ FUNCIÓN DE ERROR: Controla el cruce de carteles
+    private void MostrarErrorSacoEquivocado()
+    {
+        if (misionCompletada) return;
+
+        // Apagamos el texto flotante normal para que no se pisen
+        if (panelPopUpDialogo != null) panelPopUpDialogo.SetActive(false);
+
+        // Reiniciamos la corutina por si el jugador tira dos camperas mal seguidas
+        StopCoroutine("OcultarCartelError");
+        StartCoroutine(OcultarCartelError());
+    }
+
+    // ✨ CORUTINA DE TIEMPO PARA EL ERROR
+    IEnumerator OcultarCartelError()
+    {
+        if (cartelSacoEquivocado != null) cartelSacoEquivocado.SetActive(true);
+
+        // Espera 2.5 segundos en pantalla y se apaga solo
+        yield return new WaitForSeconds(2.5f);
+
+        if (cartelSacoEquivocado != null) cartelSacoEquivocado.SetActive(false);
     }
 
     private void FinalizarMision(GameObject saco)
     {
         misionCompletada = true;
 
-        Debug.Log("¡Misión completada! Activando PopUpMISIONcumplida y Tilde de Gladys");
+        // Por seguridad, si el cartel de error estaba prendido, lo fulminamos
+        StopCoroutine("OcultarCartelError");
+        if (cartelSacoEquivocado != null) cartelSacoEquivocado.SetActive(false);
 
-        // 1. Borramos el signo de exclamación
-        if (signoExclamacion != null) signoExclamacion.SetActive(false);
+        if (signoExclamacion != null)
+        {
+            SpriteRenderer renderSigno = signoExclamacion.GetComponent<SpriteRenderer>();
+            Collider2D colSigno = signoExclamacion.GetComponent<Collider2D>();
+            if (renderSigno != null) renderSigno.enabled = false;
+            if (colSigno != null) colSigno.enabled = false;
+        }
 
-        // 2. Apagamos el pop-up viejo
         if (panelPopUpDialogo != null) panelPopUpDialogo.SetActive(false);
-        
-        // 3. Apagamos el saco amarillo de la escena
         if (saco != null) saco.SetActive(false);
 
-        // 4. 🔥 MODIFICADO: Lanzamos la corutina para manejar el cartel por tiempo y prender el tilde
+        if (animatorTia != null) animatorTia.SetBool("estaCaminando", true);
+        tiaCaminando = true; 
+
         StartCoroutine(MostrarCartelPorTiempo());
 
-        // 5. 😊 EVOLUCIÓN: Buscamos el script único en Gladys y lo ponemos feliz
         EvolucionGladys evo = GetComponent<EvolucionGladys>();
-        if (evo != null) 
-        {
-            evo.ForzarCaraFeliz();
-        }
-        else
-        {
-            Debug.LogWarning("No se encontró el componente de Evolución (EvolucionGladys) en Gladys.");
-        }
+        if (evo != null) evo.ForzarCaraFeliz();
 
-        // 📢 GameManager central: Suma la misión cumplida
-        if (GameManager.Instance != null)
-        {
-            GameManager.Instance.RegistrarMisionCumplida();
-        }
-        else
-        {
-            Debug.LogWarning("¡Ojo! No se encontró el GameManager en la escena.");
-        }
+        if (GameManager.Instance != null) GameManager.Instance.RegistrarMisionCumplida();
     }
 
-    // ✨ NUEVA CORUTINA: Controla de forma asíncrona los 3 segundos de exposición del cartel
     IEnumerator MostrarCartelPorTiempo()
     {
         if (cartelNuevoMisionCumplida != null) cartelNuevoMisionCumplida.SetActive(true);
-        if (tildeCanvas != null) tildeCanvas.SetActive(true); // 🔥 Se prende tu tilde en el Canvas
+        if (tildeCanvas != null) tildeCanvas.SetActive(true); 
         
         cartelFinalVisible = true;
-
-        // Espera exactamente 3 segundos reales de juego
         yield return new WaitForSeconds(3f);
-
         CerrarCartelFinal();
     }
 
     private void CerrarCartelFinal()
     {
-        StopAllCoroutines(); // Frena el contador por si el jugador presionó una tecla antes de los 3 segundos
+        StopAllCoroutines(); 
         cartelFinalVisible = false;
+        tiaCaminando = false; 
         
-        if (cartelNuevoMisionCumplida != null)
-        {
-            cartelNuevoMisionCumplida.SetActive(false);
-            Debug.Log("¡Cartel de Gladys cerrado de forma limpia!");
-        }
-        // Nota: El tildeCanvas NO se apaga para que quede marcado en el HUD de la UI.
+        if (cartelNuevoMisionCumplida != null) cartelNuevoMisionCumplida.SetActive(false);
+        gameObject.SetActive(false); 
     }
 }

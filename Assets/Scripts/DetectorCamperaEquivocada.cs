@@ -1,86 +1,68 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; // 🚨 IMPORTANTE: Necesario para cambiar de escena
 
 public class DetectorCamperaEquivocada : MonoBehaviour
 {
-    [Header("Referencias de la Misión")]
+    [Header("Configuración de la Misión")]
     [SerializeField] private string nombreSacoCorrecto = "sacopeludo"; // O "sacoamarillo" según el personaje
-    [SerializeField] private GameObject cartelMisionFallida;
 
-    [Header("Configuración de Reinicio")]
-    [SerializeField] private string nombreEscenaMenu = "campera menu"; // 🚨 Poné acá el nombre exacto de tu escena de menú
-
-    private bool juegoFallido = false;
-
-    void Start()
-    {
-        if (cartelMisionFallida != null)
-        {
-            cartelMisionFallida.SetActive(false);
-        }
-        juegoFallido = false;
-    }
-
-    void Update()
-    {
-        // 🚨 SI YA PERDIÓ: Nos quedamos escuchando el Enter, Espacio o Clic para reiniciar e ir al menú
-        if (juegoFallido)
-        {
-            if (Input.GetKeyDown(KeyCode.Return) || 
-                Input.GetKeyDown(KeyCode.KeypadEnter) || 
-                Input.GetKeyDown(KeyCode.Space) || 
-                Input.GetMouseButtonDown(0))
-            {
-                ReiniciarAlMenu();
-            }
-        }
-    }
+    private bool yaSeEnojo = false; // Evita que una misma tía sume múltiples errores si el jugador la spamea
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // Si ya perdió o si lo que entró no es un objeto arrastrable (saco), no hacemos nada
-        if (juegoFallido || other.CompareTag("Player")) return;
+        // Si el objeto que entra es el jugador directamente, lo ignoramos
+        if (other.CompareTag("Player")) return;
 
         string nombreObjeto = other.gameObject.name.ToLower();
 
-        // Si entra un saco, pero NO es el correcto de este personaje... ¡PUM, error!
+        // Si entra un saco, pero NO contiene el nombre del saco correcto de este personaje... ¡Se enoja!
         if (nombreObjeto.Contains("saco") && !nombreObjeto.Contains(nombreSacoCorrecto.ToLower()))
         {
-            DispararMisionFallida(other.gameObject);
+            ProcesarCamperaEquivocada(other.gameObject);
         }
     }
 
-    private void DispararMisionFallida(GameObject sacoEquivocado)
+    private void ProcesarCamperaEquivocada(GameObject sacoEquivocado)
     {
-        juegoFallido = true;
-        Debug.Log($"🚨 ¡Campera equivocada! Se entregó: {sacoEquivocado.name}. Se esperaba: {nombreSacoCorrecto}");
+        Debug.Log($"❌ ¡Campera equivocada! Se intentó entregar: {sacoEquivocado.name} a {gameObject.name}. Se esperaba: {nombreSacoCorrecto}");
 
-        // 1. Apagamos el saco equivocado para que no quede tirado
-        if (sacoEquivocado != null) sacoEquivocado.SetActive(false);
-
-        // 2. Encendemos el cartel de Misión Fallida
-        if (cartelMisionFallida != null)
+        // 1. 🔥 LA CLAVE: Forzamos al saco a soltarse y caer al piso usando su propio script
+        // ¡YA NO lo apagamos! Así el jugador puede levantarlo del piso y llevárselo a la tía correcta.
+        DraggableObject scriptSaco = sacoEquivocado.GetComponent<DraggableObject>();
+        if (scriptSaco != null)
         {
-            cartelMisionFallida.SetActive(true);
+            scriptSaco.DropCoat(); 
         }
 
-        // 3. 🚨 OPCIONAL: Le avisamos al script de evolución de este objeto que se ponga en Blanco y Negro de una
-        EvolucionGladys evo = GetComponent<EvolucionGladys>();
-        if (evo != null)
+        // [OPCIONAL] Le metemos un pequeño empujón físico para que el saco "rebote" de la tía y se note el rechazo
+        Rigidbody2D rbSaco = sacoEquivocado.GetComponent<Rigidbody2D>();
+        if (rbSaco != null)
         {
-            // Forzamos el estado de pérdida en el script de evolución si fuera necesario
-            evo.enabled = false; // Frenamos su Update para que no se pise la lógica
+            Vector2 direccionEmpuje = (sacoEquivocado.transform.position - transform.position).normalized;
+            rbSaco.AddForce(direccionEmpuje * 4f, ForceMode2D.Impulse);
         }
-    }
 
-    private void ReiniciarAlMenu()
-    {
-        Debug.Log($"🎬 Cargando la escena de menú: {nombreEscenaMenu}");
-        
-        // Despausamos el juego por las dudas si usaste Time.timeScale = 0
-        Time.timeScale = 1f; 
-        
-        // Cargamos la escena del menú de camperas
-        SceneManager.LoadScene(nombreEscenaMenu);
+        // 2. 🔥 PENALIZACIÓN DE ESTRELLAS: Solo le avisa al GameManager la primera vez que se enoja ESTA tía
+        if (!yaSeEnojo)
+        {
+            yaSeEnojo = true;
+
+            if (GameManager.Instance != null)
+            {
+                GameManager.Instance.RegistrarPersonajeEnojado();
+            }
+            else
+            {
+                Debug.LogWarning("¡Ojo! No se encontró el GameManager en la escena para restar la estrella.");
+            }
+
+            // 3. 👀 FEEDBACK VISUAL: Descomentá esto si querés que tu script de evolución cambie su apariencia a enojada
+            /*
+            EvolucionGladys evo = GetComponent<EvolucionGladys>();
+            if (evo != null)
+            {
+                // evo.ForzarCaraEnojada(); // O el método que maneje sus expresiones
+            }
+            */
+        }
     }
 }
