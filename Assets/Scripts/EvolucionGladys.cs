@@ -56,6 +56,15 @@ public class EvolucionGladys : MonoBehaviour
             if (filtroRojoUI != null) filtroRojoUI.fillAmount = 1f;
             estaTitilando = true;
             Debug.Log("40s: Tía Enojada y titilando.");
+
+            // 🔥 NUEVO: la penalización de estrellas ahora se aplica ACÁ (apenas se pone
+            // enojada, a los 40s), no cuando llega al freeze final de los 70s. Este bloque
+            // solo se ejecuta una vez por tía (porque faseActual pasa a 3 y esta condición
+            // ya no vuelve a cumplirse), así que no hay riesgo de restar de más.
+            if (GameManager.Instance != null)
+            {
+                GameManager.Instance.RegistrarTiaEnojoTotal();
+            }
         }
 
         // CONTROL DEL TITILEO (Se ejecuta mientras esté activo y no llegue a 70s)

@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: c96a450c068d11346b65971e8a42ca7d
+guid: f840f4d01aeaf1744a263032d0bc9849
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5533464721520228598
-    second: campera_cuero_0
+      213: -17940817453698390
+    second: GloboDulces 2_0
+  - first:
+      213: -4367728379119334063
+    second: GloboDulces 2_1
+  - first:
+      213: -7929584515850015856
+    second: GloboDulces 2_2
+  - first:
+      213: -581220806331496752
+    second: GloboDulces 2_3
+  - first:
+      213: 2718964706770051832
+    second: GloboDulces 2_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 300
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: campera_cuero_0
+      name: GloboDulces 2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1053
-        height: 775
+        x: 135
+        y: 80
+        width: 1008
+        height: 1099
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +127,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a0781a0472f2533b0800000000000000
-      internalID: -5533464721520228598
+      spriteID: aa231bcebe240cff0800000000000000
+      internalID: -17940817453698390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloboDulces 2_1
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1097
+        width: 362
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15d033f2e26b263c0800000000000000
+      internalID: -4367728379119334063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloboDulces 2_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 556
+        width: 119
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09b625445e474f190800000000000000
+      internalID: -7929584515850015856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloboDulces 2_3
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 579
+        width: 93
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d68b8e81c61fe7f0800000000000000
+      internalID: -581220806331496752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloboDulces 2_4
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 72
+        width: 148
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f26adfbef3bbb520800000000000000
+      internalID: 2718964706770051832
       vertices: []
       indices: 
       edges: []
@@ -135,7 +235,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      campera_cuero_0: -5533464721520228598
+      GloboDulces 2_0: -17940817453698390
+      GloboDulces 2_1: -4367728379119334063
+      GloboDulces 2_2: -7929584515850015856
+      GloboDulces 2_3: -581220806331496752
+      GloboDulces 2_4: 2718964706770051832
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

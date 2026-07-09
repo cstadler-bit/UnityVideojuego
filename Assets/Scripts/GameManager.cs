@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -20,6 +21,7 @@ public class GameManager : MonoBehaviour
 
     // Variables internas para el cálculo
     private int personajesEnojadosCount = 0;
+    private int tiasEnojoTotalCount = 0; // 🔥 NUEVO: tías que llegaron a los 70s sin recibir su saco
     private float startTime;
 
     void Awake()
@@ -43,6 +45,7 @@ public class GameManager : MonoBehaviour
         // 🔥 Inicializamos los contadores de tiempo y errores
         startTime = Time.time;
         personajesEnojadosCount = 0;
+        tiasEnojoTotalCount = 0; // 🔥 NUEVO
         misionesCompletadasCount = 0;
 
         // Limpiamos las estrellas de la pantalla al iniciar
@@ -68,6 +71,14 @@ public class GameManager : MonoBehaviour
         Debug.Log("Paciencia rota. Total personajes enojados: " + personajesEnojadosCount);
     }
 
+    // 🔥 NUEVA FUNCIÓN: Llamala desde EvolucionGladys cuando la tía llega al enojo total (70s, B&N)
+    public void RegistrarTiaEnojoTotal()
+    {
+        tiasEnojoTotalCount++;
+        if (tiasEnojoTotalCount > 2) tiasEnojoTotalCount = 2; // Tope por seguridad (son 2 tías)
+        Debug.Log("Enojo total alcanzado. Total tías en enojo completo: " + tiasEnojoTotalCount);
+    }
+
     // Esta función la van a llamar los personajes al dar la campera correcta
     public void RegistrarMisionCumplida()
     {
@@ -77,8 +88,17 @@ public class GameManager : MonoBehaviour
         // 🏆 CONDICIÓN DE VICTORIA TOTAL
         if (misionesCompletadasCount >= TOTAL_MISIONES)
         {
-            GanarJuego();
+            // 🔥 NUEVO: esperamos 3 segundos antes de mostrar la pantalla final,
+            // para que se alcance a ver la animación/reacción de la última tía
+            // recibiendo su campera, antes de que tape todo el cartel de victoria.
+            StartCoroutine(GanarJuegoConDelay(3f));
         }
+    }
+
+    private IEnumerator GanarJuegoConDelay(float segundosDeEspera)
+    {
+        yield return new WaitForSeconds(segundosDeEspera);
+        GanarJuego();
     }
 
     private void GanarJuego()
@@ -107,18 +127,29 @@ public class GameManager : MonoBehaviour
         }
 
         // 🚨 REGLA 2: Si lo hizo en menos de 3 minutos, evalúa según el enojo
+        int estrellas;
         if (personajesEnojadosCount == 0)
         {
-            return 5; // "sin que se enoje alguno, tenes 5"
+            estrellas = 5; // "sin que se enoje alguno, tenes 5"
         }
         else if (personajesEnojadosCount == 1)
         {
-            return 4; // "si una se enoja tenes 4"
+            estrellas = 4; // "si una se enoja tenes 4"
         }
         else
         {
-            return 3; // "si las dos se enojan 3"
+            estrellas = 3; // "si las dos se enojan 3"
         }
+
+        // 🔥 REGLA 3 (NUEVA): -1 estrella extra por cada tía que llegó al enojo total (70s, B&N).
+        // Se suma a la penalización de arriba (aunque sea la misma tía la que se confundió Y llegó
+        // al enojo total, las dos restas se aplican).
+        estrellas -= tiasEnojoTotalCount;
+
+        // Piso de seguridad: nunca menos de 1 estrella si al menos llegaste a terminar el juego
+        if (estrellas < 1) estrellas = 1;
+
+        return estrellas;
     }
 
     // ---- MÉTODOS DE INTERFAZ ----

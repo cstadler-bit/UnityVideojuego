@@ -68,11 +68,18 @@ public class GestionMisionNuevoPersonaje : MonoBehaviour
             }
         }
 
-        if (other.gameObject.name.ToLower().Contains("sacopeludo"))
+        // 🔧 FIX: antes solo se chequeaba el nombre ("sacopeludo"), así que CUALQUIER objeto con
+        // ese texto en el nombre y un Collider2D disparaba la misión como cumplida, aunque no fuera
+        // un saco real (por eso aparecía el cartel de "misión cumplida" antes de entregar nada).
+        // Ahora también exigimos que tenga el componente DraggableObject, que es lo que identifica
+        // a un saco de verdad dentro del juego.
+        bool esSacoReal = other.GetComponent<DraggableObject>() != null;
+
+        if (esSacoReal && other.gameObject.name.ToLower().Contains("sacopeludo"))
         {
             FinalizarMision(other.gameObject);
         }
-        else if (other.GetComponent<DraggableObject>() != null)
+        else if (esSacoReal)
         {
             MostrarErrorSacoEquivocado();
         }
@@ -96,14 +103,16 @@ public class GestionMisionNuevoPersonaje : MonoBehaviour
     {
         if (misionesCompletada) return;
 
-        if (other.gameObject.name.ToLower().Contains("sacopeludo"))
+        bool esSacoReal = other.GetComponent<DraggableObject>() != null;
+
+        if (esSacoReal && other.gameObject.name.ToLower().Contains("sacopeludo"))
         {
             if (Input.GetMouseButtonUp(0) || Input.GetKeyUp(KeyCode.Space))
             {
                 FinalizarMision(other.gameObject);
             }
         }
-        else if (other.GetComponent<DraggableObject>() != null)
+        else if (esSacoReal)
         {
             if (Input.GetMouseButtonUp(0) || Input.GetKeyUp(KeyCode.Space))
             {
@@ -159,6 +168,13 @@ public class GestionMisionNuevoPersonaje : MonoBehaviour
     if (personajeCampera != null)
     {
         personajeCampera.RecibirCamperaYRetirarse();
+    }
+    else
+    {
+        // 🔧 DIAGNÓSTICO Bug 2: si ves este warning, la referencia "Personaje Campera" quedó
+        // sin asignar en el Inspector de este GameObject. Asignala y listo.
+        Debug.LogWarning($"⚠️ {gameObject.name}: 'personajeCampera' no está asignado en el Inspector. " +
+                          "La tía no se puede retirar.");
     }
 
     StartCoroutine(MostrarCartelPorTiempo());

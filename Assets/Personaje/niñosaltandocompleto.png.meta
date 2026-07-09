@@ -1,0 +1,1183 @@
+fileFormatVersion: 2
+guid: eff5452e2185d02409d744af93194757
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4700798082717253123
+    second: "ni\xF1osaltandocompleto_0"
+  - first:
+      213: -8918216027021894163
+    second: "ni\xF1osaltandocompleto_1"
+  - first:
+      213: 5724213173711915057
+    second: "ni\xF1osaltandocompleto_2"
+  - first:
+      213: 913317723528157363
+    second: "ni\xF1osaltandocompleto_3"
+  - first:
+      213: -5576635174608344794
+    second: "ni\xF1osaltandocompleto_4"
+  - first:
+      213: 2409245567212876411
+    second: "ni\xF1osaltandocompleto_5"
+  - first:
+      213: 2172267732663848432
+    second: "ni\xF1osaltandocompleto_6"
+  - first:
+      213: -7814428600848717023
+    second: "ni\xF1osaltandocompleto_7"
+  - first:
+      213: 5799332665345764323
+    second: "ni\xF1osaltandocompleto_8"
+  - first:
+      213: -519597103801967139
+    second: "ni\xF1osaltandocompleto_9"
+  - first:
+      213: 7011655282945549580
+    second: "ni\xF1osaltandocompleto_10"
+  - first:
+      213: 7085277609087897611
+    second: "ni\xF1osaltandocompleto_11"
+  - first:
+      213: 7231505718458343992
+    second: "ni\xF1osaltandocompleto_12"
+  - first:
+      213: -5114768049433751695
+    second: "ni\xF1osaltandocompleto_13"
+  - first:
+      213: -3167639711691379001
+    second: "ni\xF1osaltandocompleto_14"
+  - first:
+      213: 6499667262874274612
+    second: "ni\xF1osaltandocompleto_15"
+  - first:
+      213: -1837178228026551531
+    second: "ni\xF1osaltandocompleto_16"
+  - first:
+      213: -3104852099147596479
+    second: "ni\xF1osaltandocompleto_17"
+  - first:
+      213: 3402621882760603963
+    second: "ni\xF1osaltandocompleto_18"
+  - first:
+      213: -6612602848906110657
+    second: "ni\xF1osaltandocompleto_19"
+  - first:
+      213: 7422941884924082339
+    second: "ni\xF1osaltandocompleto_20"
+  - first:
+      213: 8133163117586225896
+    second: "ni\xF1osaltandocompleto_21"
+  - first:
+      213: 1173752023020778331
+    second: "ni\xF1osaltandocompleto_22"
+  - first:
+      213: -2580890141299785185
+    second: "ni\xF1osaltandocompleto_23"
+  - first:
+      213: 6820884530506892305
+    second: "ni\xF1osaltandocompleto_24"
+  - first:
+      213: 3567089355259688333
+    second: "ni\xF1osaltandocompleto_25"
+  - first:
+      213: -1409236522046207835
+    second: "ni\xF1osaltandocompleto_26"
+  - first:
+      213: -1479012567367408552
+    second: "ni\xF1osaltandocompleto_27"
+  - first:
+      213: 7843751141668547774
+    second: "ni\xF1osaltandocompleto_28"
+  - first:
+      213: 7024287481738906653
+    second: "ni\xF1osaltandocompleto_29"
+  - first:
+      213: -2290656426022834481
+    second: "ni\xF1osaltandocompleto_30"
+  - first:
+      213: -4347634067036863058
+    second: "ni\xF1osaltandocompleto_31"
+  - first:
+      213: 6324402044763308143
+    second: "ni\xF1osaltandocompleto_32"
+  - first:
+      213: -4936769138928807267
+    second: "ni\xF1osaltandocompleto_33"
+  - first:
+      213: -3384297778833165676
+    second: "ni\xF1osaltandocompleto_34"
+  - first:
+      213: 840608199489266135
+    second: "ni\xF1osaltandocompleto_35"
+  - first:
+      213: 6794794132375373207
+    second: "ni\xF1osaltandocompleto_36"
+  - first:
+      213: -7183619911091749292
+    second: "ni\xF1osaltandocompleto_37"
+  - first:
+      213: 4707514249171234735
+    second: "ni\xF1osaltandocompleto_38"
+  - first:
+      213: 6663154371223277466
+    second: "ni\xF1osaltandocompleto_39"
+  - first:
+      213: -1504556579441391809
+    second: "ni\xF1osaltandocompleto_40"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 705
+        width: 86
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30ef23943f69c3140800000000000000
+      internalID: 4700798082717253123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_1"
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 709
+        width: 82
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ded1a2f26c12c3480800000000000000
+      internalID: -8918216027021894163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_2"
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 711
+        width: 84
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 138c5b5ad8d707f40800000000000000
+      internalID: 5724213173711915057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_3"
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 708
+        width: 85
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b8d6fd61a1ccac00800000000000000
+      internalID: 913317723528157363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_4"
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 708
+        width: 83
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629658fdadfcb92b0800000000000000
+      internalID: -5576635174608344794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_5"
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 709
+        width: 83
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b727862241c5f6120800000000000000
+      internalID: 2409245567212876411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_6"
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 709
+        width: 84
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fdc8726ef1752e10800000000000000
+      internalID: 2172267732663848432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_7"
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 708
+        width: 85
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b62c317929d8390800000000000000
+      internalID: -7814428600848717023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_8"
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 712
+        width: 85
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ebe04c355e5b7050800000000000000
+      internalID: 5799332665345764323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_9"
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 707
+        width: 82
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddddf81ef250ac8f0800000000000000
+      internalID: -519597103801967139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_10"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 466
+        width: 81
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c05e57b94576e4160800000000000000
+      internalID: 7011655282945549580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_11"
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 468
+        width: 77
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0096b03276f35260800000000000000
+      internalID: 7085277609087897611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_12"
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 467
+        width: 80
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8326ae303287b5460800000000000000
+      internalID: 7231505718458343992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_13"
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 467
+        width: 78
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17fcbf8ee81b409b0800000000000000
+      internalID: -5114768049433751695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_14"
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 467
+        width: 79
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cee63017784a04d0800000000000000
+      internalID: -3167639711691379001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_15"
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 467
+        width: 79
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b4bd950f4733a50800000000000000
+      internalID: 6499667262874274612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_16"
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 467
+        width: 78
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5135569a2280186e0800000000000000
+      internalID: -1837178228026551531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_17"
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 467
+        width: 79
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d7e2e477959e4d0800000000000000
+      internalID: -3104852099147596479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_18"
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 467
+        width: 78
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b39aae2139a883f20800000000000000
+      internalID: 3402621882760603963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_19"
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 467
+        width: 80
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3917367eb05b34a0800000000000000
+      internalID: -6612602848906110657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_20"
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 236
+        width: 73
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8b44fd056930760800000000000000
+      internalID: 7422941884924082339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_21"
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 242
+        width: 74
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea190c93ccced070800000000000000
+      internalID: 8133163117586225896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_22"
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 242
+        width: 73
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53bc820f310a4010800000000000000
+      internalID: 1173752023020778331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_23"
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 236
+        width: 74
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f12c4833716de2cd0800000000000000
+      internalID: -2580890141299785185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_24"
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 243
+        width: 75
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11402d68756a8ae50800000000000000
+      internalID: 6820884530506892305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_25"
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 236
+        width: 73
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d85b45e8ed8d08130800000000000000
+      internalID: 3567089355259688333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_26"
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 242
+        width: 73
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a8cde289d2617ce0800000000000000
+      internalID: -1409236522046207835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_27"
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 236
+        width: 73
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8542ab7f7ed797be0800000000000000
+      internalID: -1479012567367408552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_28"
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 242
+        width: 73
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebce7b9fa1a9adc60800000000000000
+      internalID: 7843751141668547774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_29"
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 236
+        width: 73
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c45459f384b7160800000000000000
+      internalID: 7024287481738906653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_30"
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 225
+        width: 55
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce6170fd14f530e0800000000000000
+      internalID: -2290656426022834481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_31"
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 75
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea581ecc9d91aa3c0800000000000000
+      internalID: -4347634067036863058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_32"
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 3
+        width: 75
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f600fdec62ac4c750800000000000000
+      internalID: 6324402044763308143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_33"
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 0
+        width: 75
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d929900df921d7bb0800000000000000
+      internalID: -4936769138928807267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_34"
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 3
+        width: 74
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4927186d91f8801d0800000000000000
+      internalID: -3384297778833165676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_35"
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 0
+        width: 74
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d1a6d524b07aab00800000000000000
+      internalID: 840608199489266135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_36"
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 0
+        width: 74
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79584265345fb4e50800000000000000
+      internalID: 6794794132375373207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_37"
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 1
+        width: 74
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ef3f550c7ae4c90800000000000000
+      internalID: -7183619911091749292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_38"
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 1
+        width: 74
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fafe0f4a443745140800000000000000
+      internalID: 4707514249171234735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_39"
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 0
+        width: 75
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9fca540997487c50800000000000000
+      internalID: 6663154371223277466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ni\xF1osaltandocompleto_40"
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 0
+        width: 74
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f374be133cdbe1be0800000000000000
+      internalID: -1504556579441391809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "ni\xF1osaltandocompleto_0": 4700798082717253123
+      "ni\xF1osaltandocompleto_1": -8918216027021894163
+      "ni\xF1osaltandocompleto_10": 7011655282945549580
+      "ni\xF1osaltandocompleto_11": 7085277609087897611
+      "ni\xF1osaltandocompleto_12": 7231505718458343992
+      "ni\xF1osaltandocompleto_13": -5114768049433751695
+      "ni\xF1osaltandocompleto_14": -3167639711691379001
+      "ni\xF1osaltandocompleto_15": 6499667262874274612
+      "ni\xF1osaltandocompleto_16": -1837178228026551531
+      "ni\xF1osaltandocompleto_17": -3104852099147596479
+      "ni\xF1osaltandocompleto_18": 3402621882760603963
+      "ni\xF1osaltandocompleto_19": -6612602848906110657
+      "ni\xF1osaltandocompleto_2": 5724213173711915057
+      "ni\xF1osaltandocompleto_20": 7422941884924082339
+      "ni\xF1osaltandocompleto_21": 8133163117586225896
+      "ni\xF1osaltandocompleto_22": 1173752023020778331
+      "ni\xF1osaltandocompleto_23": -2580890141299785185
+      "ni\xF1osaltandocompleto_24": 6820884530506892305
+      "ni\xF1osaltandocompleto_25": 3567089355259688333
+      "ni\xF1osaltandocompleto_26": -1409236522046207835
+      "ni\xF1osaltandocompleto_27": -1479012567367408552
+      "ni\xF1osaltandocompleto_28": 7843751141668547774
+      "ni\xF1osaltandocompleto_29": 7024287481738906653
+      "ni\xF1osaltandocompleto_3": 913317723528157363
+      "ni\xF1osaltandocompleto_30": -2290656426022834481
+      "ni\xF1osaltandocompleto_31": -4347634067036863058
+      "ni\xF1osaltandocompleto_32": 6324402044763308143
+      "ni\xF1osaltandocompleto_33": -4936769138928807267
+      "ni\xF1osaltandocompleto_34": -3384297778833165676
+      "ni\xF1osaltandocompleto_35": 840608199489266135
+      "ni\xF1osaltandocompleto_36": 6794794132375373207
+      "ni\xF1osaltandocompleto_37": -7183619911091749292
+      "ni\xF1osaltandocompleto_38": 4707514249171234735
+      "ni\xF1osaltandocompleto_39": 6663154371223277466
+      "ni\xF1osaltandocompleto_4": -5576635174608344794
+      "ni\xF1osaltandocompleto_40": -1504556579441391809
+      "ni\xF1osaltandocompleto_5": 2409245567212876411
+      "ni\xF1osaltandocompleto_6": 2172267732663848432
+      "ni\xF1osaltandocompleto_7": -7814428600848717023
+      "ni\xF1osaltandocompleto_8": 5799332665345764323
+      "ni\xF1osaltandocompleto_9": -519597103801967139
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

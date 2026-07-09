@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c96a450c068d11346b65971e8a42ca7d
+guid: 8ec72138bd1b6fa46ae3314823281778
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5533464721520228598
-    second: campera_cuero_0
+      213: -6764959067481586614
+    second: MapaNiveles_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 300
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: campera_cuero_0
+      name: MapaNiveles_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1053
-        height: 775
+        width: 1672
+        height: 941
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a0781a0472f2533b0800000000000000
-      internalID: -5533464721520228598
+      spriteID: a44c3b602990e12a0800000000000000
+      internalID: -6764959067481586614
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      campera_cuero_0: -5533464721520228598
+      MapaNiveles_0: -6764959067481586614
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

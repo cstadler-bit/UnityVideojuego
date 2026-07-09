@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: ae4063c9122cf24478fee24771eb5c67
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2254372018573409
+    second: NiNONINO_0
+  - first:
+      213: -5009608389776823573
+    second: NiNONINO_1
+  - first:
+      213: 4836695433917658664
+    second: NiNONINO_2
+  - first:
+      213: 8373644025721995119
+    second: NiNONINO_3
+  - first:
+      213: 1739739421040865752
+    second: NiNONINO_4
+  - first:
+      213: -5626603767110350915
+    second: NiNONINO_5
+  - first:
+      213: 1746698139980867307
+    second: NiNONINO_6
+  - first:
+      213: 3189223423837930326
+    second: NiNONINO_7
+  - first:
+      213: -7272188185450438253
+    second: NiNONINO_8
+  - first:
+      213: -8869103147388644743
+    second: NiNONINO_9
+  - first:
+      213: 548009604592511042
+    second: NiNONINO_10
+  - first:
+      213: -7772993308106469949
+    second: NiNONINO_11
+  - first:
+      213: 6044551358215600783
+    second: NiNONINO_12
+  - first:
+      213: 2442227057889267195
+    second: NiNONINO_13
+  - first:
+      213: -3327666104159908239
+    second: NiNONINO_14
+  - first:
+      213: 4062231601611813387
+    second: NiNONINO_15
+  - first:
+      213: 974874622688749022
+    second: NiNONINO_16
+  - first:
+      213: 968327066017759893
+    second: NiNONINO_17
+  - first:
+      213: -3074929778670069146
+    second: NiNONINO_18
+  - first:
+      213: -543218539568660782
+    second: NiNONINO_19
+  - first:
+      213: -37243009527516239
+    second: NiNONINO_20
+  - first:
+      213: -3429461491622446187
+    second: NiNONINO_21
+  - first:
+      213: 1349587484492641219
+    second: NiNONINO_22
+  - first:
+      213: -3027868489909526682
+    second: NiNONINO_23
+  - first:
+      213: 8973906141324186165
+    second: NiNONINO_24
+  - first:
+      213: -6678070331687569886
+    second: NiNONINO_25
+  - first:
+      213: -3971693053988158744
+    second: NiNONINO_26
+  - first:
+      213: -3916583721846242111
+    second: NiNONINO_27
+  - first:
+      213: -4382899704564621492
+    second: NiNONINO_28
+  - first:
+      213: 4258675049204208670
+    second: NiNONINO_29
+  - first:
+      213: -5854539879628748302
+    second: NiNONINO_30
+  - first:
+      213: -2720724152231787455
+    second: NiNONINO_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NiNONINO_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 724
+        width: 105
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f24ac19adf7fff0800000000000000
+      internalID: -2254372018573409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NiNONINO_1
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 728
+        width: 108
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea298726bb4a7ab0800000000000000
+      internalID: -5009608389776823573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NiNONINO_2
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 724
+        width: 108
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8267a690fd46f1340800000000000000
+      internalID: 4836695433917658664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NiNONINO_3
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 725
+        width: 108
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f3bbc30e8253470800000000000000
+      internalID: 8373644025721995119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NiNONINO_4
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 725
+        width: 107
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d172e039cbc42810800000000000000
+      internalID: 1739739421040865752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NiNONINO_5
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 725
+        width: 108
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db743815fa94ae1b0800000000000000
+      internalID: -5626603767110350915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NiNONINO_6
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 724
+        width: 108
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be6256334b48d3810800000000000000
+      internalID: 1746698139980867307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NiNONINO_7
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 724
+        width: 103
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65307378ec5624c20800000000000000
+      internalID: 3189223423837930326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NiNONINO_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 480
+        width: 99
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3912f62006ff31b90800000000000000
+      internalID: -7272188185450438253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NiNONINO_9
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 480
+        width: 107
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972d99f8dad9ae480800000000000000
+      internalID: -8869103147388644743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NiNONINO_10
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 482
+        width: 108
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2482d37f4dbea9700800000000000000
+      internalID: 548009604592511042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NiNONINO_11
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 484
+        width: 105
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd43d4f4c7c02490800000000000000
+      internalID: -7772993308106469949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NiNONINO_12
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 480
+        width: 107
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8abb055f6f82e350800000000000000
+      internalID: 6044551358215600783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NiNONINO_13
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 480
+        width: 103
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd4656d19884e120800000000000000
+      internalID: 2442227057889267195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NiNONINO_14
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 479
+        width: 103
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ec07a1f41c1d1d0800000000000000
+      internalID: -3327666104159908239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NiNONINO_15
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 480
+        width: 103
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0230797e12ff5830800000000000000
+      internalID: 4062231601611813387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NiNONINO_16
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 248
+        width: 92
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5e7e1ed43778d00800000000000000
+      internalID: 974874622688749022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NiNONINO_17
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 248
+        width: 93
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 592826c0650307d00800000000000000
+      internalID: 968327066017759893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NiNONINO_18
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 249
+        width: 94
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a991178a7a355d0800000000000000
+      internalID: -3074929778670069146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NiNONINO_19
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 248
+        width: 97
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de7a99cd991678f0800000000000000
+      internalID: -543218539568660782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NiNONINO_20
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 248
+        width: 96
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3febe1eafab7ff0800000000000000
+      internalID: -37243009527516239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NiNONINO_21
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 249
+        width: 95
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59b76f481fa1860d0800000000000000
+      internalID: -3429461491622446187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NiNONINO_22
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 250
+        width: 92
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c33f7eaaa2bab210800000000000000
+      internalID: 1349587484492641219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NiNONINO_23
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 249
+        width: 96
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f185896a9daf5d0800000000000000
+      internalID: -3027868489909526682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NiNONINO_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 99
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5321359f618b98c70800000000000000
+      internalID: 8973906141324186165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NiNONINO_25
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 0
+        width: 101
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226ffae4a6ab253a0800000000000000
+      internalID: -6678070331687569886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NiNONINO_26
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 0
+        width: 103
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e24628d536b1e8c0800000000000000
+      internalID: -3971693053988158744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NiNONINO_27
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 0
+        width: 97
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c4074e1bdf75a9c0800000000000000
+      internalID: -3916583721846242111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NiNONINO_28
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 0
+        width: 97
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4fd247b0ffcc23c0800000000000000
+      internalID: -4382899704564621492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NiNONINO_29
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 0
+        width: 98
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e14d2a1d46ad91b30800000000000000
+      internalID: 4258675049204208670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NiNONINO_30
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 0
+        width: 97
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f9ce578ffe70cea0800000000000000
+      internalID: -5854539879628748302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NiNONINO_31
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 0
+        width: 98
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 144066e6ccb0e3ad0800000000000000
+      internalID: -2720724152231787455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NiNONINO_0: -2254372018573409
+      NiNONINO_1: -5009608389776823573
+      NiNONINO_10: 548009604592511042
+      NiNONINO_11: -7772993308106469949
+      NiNONINO_12: 6044551358215600783
+      NiNONINO_13: 2442227057889267195
+      NiNONINO_14: -3327666104159908239
+      NiNONINO_15: 4062231601611813387
+      NiNONINO_16: 974874622688749022
+      NiNONINO_17: 968327066017759893
+      NiNONINO_18: -3074929778670069146
+      NiNONINO_19: -543218539568660782
+      NiNONINO_2: 4836695433917658664
+      NiNONINO_20: -37243009527516239
+      NiNONINO_21: -3429461491622446187
+      NiNONINO_22: 1349587484492641219
+      NiNONINO_23: -3027868489909526682
+      NiNONINO_24: 8973906141324186165
+      NiNONINO_25: -6678070331687569886
+      NiNONINO_26: -3971693053988158744
+      NiNONINO_27: -3916583721846242111
+      NiNONINO_28: -4382899704564621492
+      NiNONINO_29: 4258675049204208670
+      NiNONINO_3: 8373644025721995119
+      NiNONINO_30: -5854539879628748302
+      NiNONINO_31: -2720724152231787455
+      NiNONINO_4: 1739739421040865752
+      NiNONINO_5: -5626603767110350915
+      NiNONINO_6: 1746698139980867307
+      NiNONINO_7: 3189223423837930326
+      NiNONINO_8: -7272188185450438253
+      NiNONINO_9: -8869103147388644743
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

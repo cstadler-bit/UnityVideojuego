@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c96a450c068d11346b65971e8a42ca7d
+guid: 33dfb0c544fe40043872a5db504f975d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5533464721520228598
-    second: campera_cuero_0
+      213: -8983650906736043223
+    second: RondaIncompleta_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 300
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: campera_cuero_0
+      name: RondaIncompleta_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1053
-        height: 775
+        x: 694
+        y: 258
+        width: 754
+        height: 715
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a0781a0472f2533b0800000000000000
-      internalID: -5533464721520228598
+      spriteID: 92bd1e50919a35380800000000000000
+      internalID: -8983650906736043223
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      campera_cuero_0: -5533464721520228598
+      RondaIncompleta_0: -8983650906736043223
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

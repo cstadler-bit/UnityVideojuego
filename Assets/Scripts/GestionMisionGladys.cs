@@ -68,11 +68,15 @@ public class GestionMisionGladys : MonoBehaviour
             }
         }
 
-        if (other.gameObject.name.ToLower().Contains("sacoamarillo"))
+        // 🔧 FIX: exigimos también el componente DraggableObject, no solo el nombre, para evitar
+        // que un objeto no-saco con "sacoamarillo" en el nombre complete la misión por error.
+        bool esSacoReal = other.GetComponent<DraggableObject>() != null;
+
+        if (esSacoReal && other.gameObject.name.ToLower().Contains("sacoamarillo"))
         {
             FinalizarMision(other.gameObject);
         }
-        else if (other.GetComponent<DraggableObject>() != null)
+        else if (esSacoReal)
         {
             MostrarErrorSacoEquivocado();
         }
@@ -96,14 +100,16 @@ public class GestionMisionGladys : MonoBehaviour
     {
         if (misionCompletada) return;
 
-        if (other.gameObject.name.ToLower().Contains("sacoamarillo"))
+        bool esSacoReal = other.GetComponent<DraggableObject>() != null;
+
+        if (esSacoReal && other.gameObject.name.ToLower().Contains("sacoamarillo"))
         {
             if (Input.GetMouseButtonUp(0) || Input.GetKeyUp(KeyCode.Space))
             {
                 FinalizarMision(other.gameObject);
             }
         }
-        else if (other.GetComponent<DraggableObject>() != null)
+        else if (esSacoReal)
         {
             if (Input.GetMouseButtonUp(0) || Input.GetKeyUp(KeyCode.Space))
             {
@@ -159,6 +165,13 @@ public class GestionMisionGladys : MonoBehaviour
         if (personajeCampera != null)
         {
             personajeCampera.RecibirCamperaYRetirarse();
+        }
+        else
+        {
+            // 🔧 DIAGNÓSTICO Bug 2: si ves este warning, la referencia "Personaje Campera" quedó
+            // sin asignar en el Inspector de este GameObject. Asignala y listo.
+            Debug.LogWarning($"⚠️ {gameObject.name}: 'personajeCampera' no está asignado en el Inspector. " +
+                              "La tía no se puede retirar.");
         }
 
         StartCoroutine(MostrarCartelPorTiempo());

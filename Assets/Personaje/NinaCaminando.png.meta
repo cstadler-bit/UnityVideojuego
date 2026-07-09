@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 53221dd691a95354c8c855eda9cf759d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7606496863572450091
+    second: NinaCaminando_0
+  - first:
+      213: -4063714271052138732
+    second: NinaCaminando_1
+  - first:
+      213: -8294168795384191345
+    second: NinaCaminando_2
+  - first:
+      213: 2764181158096096197
+    second: NinaCaminando_3
+  - first:
+      213: -4165477880108276771
+    second: NinaCaminando_4
+  - first:
+      213: -7224757369811257782
+    second: NinaCaminando_5
+  - first:
+      213: 3744464732111356033
+    second: NinaCaminando_6
+  - first:
+      213: -1981407117078872578
+    second: NinaCaminando_7
+  - first:
+      213: -9044307365993544437
+    second: NinaCaminando_8
+  - first:
+      213: -564131980894487658
+    second: NinaCaminando_9
+  - first:
+      213: -8580949496145315734
+    second: NinaCaminando_10
+  - first:
+      213: -2855233914605015548
+    second: NinaCaminando_11
+  - first:
+      213: 3215292866723635727
+    second: NinaCaminando_12
+  - first:
+      213: 3494849068805144420
+    second: NinaCaminando_13
+  - first:
+      213: 2661519705451618229
+    second: NinaCaminando_14
+  - first:
+      213: 8564812662873608121
+    second: NinaCaminando_15
+  - first:
+      213: -2738715434166514500
+    second: NinaCaminando_16
+  - first:
+      213: -2376210447594129485
+    second: NinaCaminando_17
+  - first:
+      213: -2228071586602062379
+    second: NinaCaminando_18
+  - first:
+      213: 974048431717963098
+    second: NinaCaminando_19
+  - first:
+      213: 4185233781255032833
+    second: NinaCaminando_20
+  - first:
+      213: -5371988087295470446
+    second: NinaCaminando_21
+  - first:
+      213: -5671342575652387152
+    second: NinaCaminando_22
+  - first:
+      213: -7129709795172110666
+    second: NinaCaminando_23
+  - first:
+      213: 1713186506351822203
+    second: NinaCaminando_24
+  - first:
+      213: -5416893310080286199
+    second: NinaCaminando_25
+  - first:
+      213: 8345584912344303627
+    second: NinaCaminando_26
+  - first:
+      213: 5038675147801065842
+    second: NinaCaminando_27
+  - first:
+      213: -6958288315349103166
+    second: NinaCaminando_28
+  - first:
+      213: -1115479886564360318
+    second: NinaCaminando_29
+  - first:
+      213: 1150906614180996006
+    second: NinaCaminando_30
+  - first:
+      213: -416852713421882085
+    second: NinaCaminando_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NinaCaminando_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 786
+        width: 107
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2bdb52b894bf8960800000000000000
+      internalID: 7606496863572450091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinaCaminando_1
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 786
+        width: 106
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4177045a669ca97c0800000000000000
+      internalID: -4063714271052138732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinaCaminando_2
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 786
+        width: 107
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86eefbcc6135ec80800000000000000
+      internalID: -8294168795384191345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinaCaminando_3
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 786
+        width: 109
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb45273e185c5620800000000000000
+      internalID: 2764181158096096197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinaCaminando_4
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 786
+        width: 107
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd3266c00ff3136c0800000000000000
+      internalID: -4165477880108276771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinaCaminando_5
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 786
+        width: 107
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46b30853718cbb90800000000000000
+      internalID: -7224757369811257782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinaCaminando_6
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 786
+        width: 110
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180c977b5d207f330800000000000000
+      internalID: 3744464732111356033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinaCaminando_7
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 786
+        width: 110
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd351799b0a084e0800000000000000
+      internalID: -1981407117078872578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinaCaminando_8
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 539
+        width: 103
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0581829e5a2c7280800000000000000
+      internalID: -9044307365993544437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinaCaminando_9
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 539
+        width: 103
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69bb858c3fccb28f0800000000000000
+      internalID: -564131980894487658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinaCaminando_10
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 539
+        width: 100
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a68f0b6a5e75ae880800000000000000
+      internalID: -8580949496145315734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinaCaminando_11
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 539
+        width: 102
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ee151e1eb2068d0800000000000000
+      internalID: -2855233914605015548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinaCaminando_12
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 539
+        width: 101
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f02e8e1b3d30f9c20800000000000000
+      internalID: 3215292866723635727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinaCaminando_13
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 539
+        width: 101
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f3cb926b2308030800000000000000
+      internalID: 3494849068805144420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinaCaminando_14
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 539
+        width: 102
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bf552e121e9fe420800000000000000
+      internalID: 2661519705451618229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinaCaminando_15
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 540
+        width: 100
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bf49521db35cd670800000000000000
+      internalID: 8564812662873608121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinaCaminando_16
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 299
+        width: 110
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc00ada2d02ef9d0800000000000000
+      internalID: -2738715434166514500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinaCaminando_17
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 299
+        width: 111
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b774970031060fd0800000000000000
+      internalID: -2376210447594129485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinaCaminando_18
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 299
+        width: 110
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd617262bc4411e0800000000000000
+      internalID: -2228071586602062379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinaCaminando_19
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 299
+        width: 109
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55539e43e3848d00800000000000000
+      internalID: 974048431717963098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinaCaminando_20
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 299
+        width: 107
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 100dba123ffe41a30800000000000000
+      internalID: 4185233781255032833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinaCaminando_21
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 299
+        width: 106
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2949f1feb4dd275b0800000000000000
+      internalID: -5371988087295470446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinaCaminando_22
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 299
+        width: 109
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b6c0bab9f75b41b0800000000000000
+      internalID: -5671342575652387152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinaCaminando_23
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 299
+        width: 105
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bea42357be2e0d90800000000000000
+      internalID: -7129709795172110666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinaCaminando_24
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 51
+        width: 108
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75c719fc0676c710800000000000000
+      internalID: 1713186506351822203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinaCaminando_25
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 51
+        width: 111
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90289720c3453d4b0800000000000000
+      internalID: -5416893310080286199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinaCaminando_26
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 51
+        width: 106
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b08442fc24971d370800000000000000
+      internalID: 8345584912344303627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinaCaminando_27
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 51
+        width: 101
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2797543d958fce540800000000000000
+      internalID: 5038675147801065842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinaCaminando_28
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 51
+        width: 106
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd8ddec4a13f6f90800000000000000
+      internalID: -6958288315349103166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinaCaminando_29
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 51
+        width: 109
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28ffc3704f40580f0800000000000000
+      internalID: -1115479886564360318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinaCaminando_30
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 51
+        width: 108
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3e7e3c777d8ff00800000000000000
+      internalID: 1150906614180996006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinaCaminando_31
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 51
+        width: 106
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1db4dc6aaa073af0800000000000000
+      internalID: -416852713421882085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NinaCaminando_0: 7606496863572450091
+      NinaCaminando_1: -4063714271052138732
+      NinaCaminando_10: -8580949496145315734
+      NinaCaminando_11: -2855233914605015548
+      NinaCaminando_12: 3215292866723635727
+      NinaCaminando_13: 3494849068805144420
+      NinaCaminando_14: 2661519705451618229
+      NinaCaminando_15: 8564812662873608121
+      NinaCaminando_16: -2738715434166514500
+      NinaCaminando_17: -2376210447594129485
+      NinaCaminando_18: -2228071586602062379
+      NinaCaminando_19: 974048431717963098
+      NinaCaminando_2: -8294168795384191345
+      NinaCaminando_20: 4185233781255032833
+      NinaCaminando_21: -5371988087295470446
+      NinaCaminando_22: -5671342575652387152
+      NinaCaminando_23: -7129709795172110666
+      NinaCaminando_24: 1713186506351822203
+      NinaCaminando_25: -5416893310080286199
+      NinaCaminando_26: 8345584912344303627
+      NinaCaminando_27: 5038675147801065842
+      NinaCaminando_28: -6958288315349103166
+      NinaCaminando_29: -1115479886564360318
+      NinaCaminando_3: 2764181158096096197
+      NinaCaminando_30: 1150906614180996006
+      NinaCaminando_31: -416852713421882085
+      NinaCaminando_4: -4165477880108276771
+      NinaCaminando_5: -7224757369811257782
+      NinaCaminando_6: 3744464732111356033
+      NinaCaminando_7: -1981407117078872578
+      NinaCaminando_8: -9044307365993544437
+      NinaCaminando_9: -564131980894487658
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

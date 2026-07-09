@@ -25,23 +25,17 @@ public class DetectorCamperaEquivocada : MonoBehaviour
     {
         Debug.Log($"❌ ¡Campera equivocada! Se intentó entregar: {sacoEquivocado.name} a {gameObject.name}. Se esperaba: {nombreSacoCorrecto}");
 
-        // 1. 🔥 LA CLAVE: Forzamos al saco a soltarse y caer al piso usando su propio script
-        // ¡YA NO lo apagamos! Así el jugador puede levantarlo del piso y llevárselo a la tía correcta.
-        DraggableObject scriptSaco = sacoEquivocado.GetComponent<DraggableObject>();
-        if (scriptSaco != null)
-        {
-            scriptSaco.DropCoat(); 
-        }
+        // 🔧 FIX: YA NO forzamos DropCoat() acá.
+        // Regla actual del juego: si el saco es incorrecto, el niño se lo tiene que QUEDAR encima
+        // (eso ya lo maneja GestionMision.../MostrarErrorSacoEquivocado con el cartel de error).
+        // Antes, este script llamaba a scriptSaco.DropCoat() para tirar el saco al piso, pero
+        // DropCoat() no reseteaba la bandera isWithKid de DraggableObject. Resultado: el saco
+        // quedaba tirado en el piso pero "trabado" como si un niño lo siguiera cargando, y nunca
+        // más se podía volver a agarrar. Como ahora no debe soltarse, directamente sacamos la
+        // llamada. (El empujón físico de abajo tampoco tenía efecto real: mientras el saco está
+        // con el niño, su Rigidbody2D es Kinematic, así que AddForce no lo movía).
 
-        // [OPCIONAL] Le metemos un pequeño empujón físico para que el saco "rebote" de la tía y se note el rechazo
-        Rigidbody2D rbSaco = sacoEquivocado.GetComponent<Rigidbody2D>();
-        if (rbSaco != null)
-        {
-            Vector2 direccionEmpuje = (sacoEquivocado.transform.position - transform.position).normalized;
-            rbSaco.AddForce(direccionEmpuje * 4f, ForceMode2D.Impulse);
-        }
-
-        // 2. 🔥 PENALIZACIÓN DE ESTRELLAS: Solo le avisa al GameManager la primera vez que se enoja ESTA tía
+        // 🔥 PENALIZACIÓN DE ESTRELLAS: Solo le avisa al GameManager la primera vez que se enoja ESTA tía
         if (!yaSeEnojo)
         {
             yaSeEnojo = true;
