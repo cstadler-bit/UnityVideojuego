@@ -6,14 +6,32 @@ public class Movimiento : MonoBehaviour
     public float velocidad = 5f;
     public bool congelado = false;
 
+    [Header("Animación de bebida")]
+    public Sprite[] drinkFrames;
+    public float frameTime = 0.12f;
+    public int loops = 3;
+
+    [Header("Animación de resbalón")]
+    public Sprite[] fallFrames;
+    public Sprite[] getUpFrames;
+    public float slipFrameTime = 0.12f;
+
     private Animator animator;
     private SpriteRenderer spriteRenderer;
+
     private Vector2 ultimaDireccion = new Vector2(0, -1);
+
+    private bool tomando = false;
+    private bool resbalando = false;
+
+    private Sprite spriteOriginal;
 
     void Start()
     {
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+
+        spriteOriginal = spriteRenderer.sprite;
 
         animator.SetFloat("Horizontal", 0);
         animator.SetFloat("Vertical", -1);
@@ -22,7 +40,7 @@ public class Movimiento : MonoBehaviour
 
     void Update()
     {
-        if (congelado)
+        if (congelado || tomando || resbalando)
         {
             animator.SetBool("Moving", false);
             return;
@@ -53,6 +71,94 @@ public class Movimiento : MonoBehaviour
         animator.SetFloat("Vertical", ultimaDireccion.y);
         animator.SetBool("Moving", movimiento != Vector2.zero);
     }
+
+    //==================================================
+    // TOMAR PONCHE
+    //==================================================
+
+    public void TomarPonche()
+    {
+        if (!tomando)
+            StartCoroutine(AnimacionTomar());
+    }
+
+    private IEnumerator AnimacionTomar()
+    {
+        tomando = true;
+
+        animator.enabled = false;
+
+        for (int l = 0; l < loops; l++)
+        {
+            for (int i = 0; i < drinkFrames.Length; i++)
+            {
+                spriteRenderer.sprite = drinkFrames[i];
+                yield return new WaitForSeconds(frameTime);
+            }
+        }
+
+        animator.enabled = true;
+        spriteRenderer.sprite = spriteOriginal;
+
+        tomando = false;
+    }
+
+    //==================================================
+    // RESBALÓN
+    //==================================================
+
+    public void Resbalar()
+    {
+        if (resbalando || tomando)
+            return;
+
+        StartCoroutine(AnimacionResbalon());
+    }
+
+    private IEnumerator AnimacionResbalon()
+{
+    resbalando = true;
+
+    animator.enabled = false;
+
+    // ===== CAÍDA (4 FRAMES) =====
+
+    spriteRenderer.sprite = fallFrames[0];
+    yield return new WaitForSeconds(slipFrameTime);
+
+    spriteRenderer.sprite = fallFrames[1];
+    yield return new WaitForSeconds(slipFrameTime);
+
+    spriteRenderer.sprite = fallFrames[2];
+    yield return new WaitForSeconds(slipFrameTime);
+
+    // Último frame de la caída (tirado en el piso)
+    spriteRenderer.sprite = fallFrames[3];
+    yield return new WaitForSeconds(0.50f);
+
+    // ===== LEVANTARSE (4 FRAMES) =====
+
+    spriteRenderer.sprite = getUpFrames[0];
+    yield return new WaitForSeconds(slipFrameTime);
+
+    spriteRenderer.sprite = getUpFrames[1];
+    yield return new WaitForSeconds(slipFrameTime);
+
+    spriteRenderer.sprite = getUpFrames[2];
+    yield return new WaitForSeconds(slipFrameTime);
+
+    spriteRenderer.sprite = getUpFrames[3];
+    yield return new WaitForSeconds(slipFrameTime);
+
+    animator.enabled = true;
+    spriteRenderer.sprite = spriteOriginal;
+
+    resbalando = false;
+}
+
+    //==================================================
+    // EFECTOS
+    //==================================================
 
     public void AplicarCongeladoVisual()
     {

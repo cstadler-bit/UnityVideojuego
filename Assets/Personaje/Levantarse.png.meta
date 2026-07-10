@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 427db0fbff9d4584d85e7a54e5b85df2
+guid: fdf7774b235771647b2102f35c64b262
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5079907726053445139
-    second: "M\xE1scara_0"
+      213: 121831272768988439
+    second: Levantarse_0
+  - first:
+      213: -5456554603948688311
+    second: Levantarse_1
+  - first:
+      213: 4075231834459135159
+    second: Levantarse_2
+  - first:
+      213: -5716176374169472740
+    second: Levantarse_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "M\xE1scara_0"
+      name: Levantarse_0
       rect:
         serializedVersion: 2
-        x: 1064
-        y: 506
-        width: 360
-        height: 329
+        x: 589
+        y: 345
+        width: 365
+        height: 249
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: de172d076da8089b0800000000000000
-      internalID: -5079907726053445139
+      spriteID: 715ede7a5e4d0b100800000000000000
+      internalID: 121831272768988439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levantarse_1
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 344
+        width: 392
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94cbd1e6f7c6644b0800000000000000
+      internalID: -5456554603948688311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levantarse_2
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 329
+        width: 282
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bcdc4e03c12e8830800000000000000
+      internalID: 4075231834459135159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Levantarse_3
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 321
+        width: 208
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11f5209fdf0ca0b0800000000000000
+      internalID: -5716176374169472740
       vertices: []
       indices: 
       edges: []
@@ -135,7 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "M\xE1scara_0": -5079907726053445139
+      Levantarse_0: 121831272768988439
+      Levantarse_1: -5456554603948688311
+      Levantarse_2: 4075231834459135159
+      Levantarse_3: -5716176374169472740
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
