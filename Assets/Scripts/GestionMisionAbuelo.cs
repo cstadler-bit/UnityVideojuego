@@ -151,6 +151,8 @@ public class GestionMisionAbuelo : MonoBehaviour
 
     private void FinalizarMision(GameObject saco)
     {
+        if (misionCompletada) return;
+
         misionCompletada = true;
 
         StopCoroutine("OcultarCartelError");
@@ -180,15 +182,25 @@ public class GestionMisionAbuelo : MonoBehaviour
             Debug.LogWarning($"{gameObject.name}: falta asignar PersonajeCampera en el Inspector.");
         }
 
-        StartCoroutine(MostrarCartelPorTiempo());
-
-       EvolucionAbuelo evo = GetComponent<EvolucionAbuelo>();
+        EvolucionAbuelo evo = GetComponent<EvolucionAbuelo>();
 
         if (evo != null)
         {
-        evo.ForzarCaraFeliz();
+            evo.ForzarCaraFeliz();
         }
-}
+
+        StartCoroutine(MostrarCartelPorTiempo());
+
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.RegistrarMisionCumplida();
+        }
+        else
+        {
+            Debug.LogWarning("No se encontró GameManager en la escena.");
+        }
+    }
+
     IEnumerator MostrarCartelPorTiempo()
     {
         if (cartelMisionCumplida != null)
@@ -240,7 +252,5 @@ public class GestionMisionAbuelo : MonoBehaviour
         {
             colisionador.enabled = false;
         }
-
-        // No usamos signoExclamacion.SetActive(false), porque puede apagar el objeto que contiene el script.
     }
 }

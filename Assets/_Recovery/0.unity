@@ -4072,7 +4072,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &491921105
 SpriteRenderer:
   serializedVersion: 2
@@ -7099,7 +7099,7 @@ Transform:
   m_GameObject: {fileID: 808595644}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.35, y: 2.21, z: 0}
+  m_LocalPosition: {x: 22.41, y: -1.44, z: 0}
   m_LocalScale: {x: 0.7550253, y: 0.7550253, z: 0.7550253}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9022,7 +9022,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7284b8f8f5820c2478f55fd24fe60daf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ControlGuardarropas
-  maxEntradasAntesDeBloqueo: 3
+  maxEntradasPermitidas: 3
   tiempoDeBloqueo: 5
   cartelAdvertencia: {fileID: 128158774}
   bloqueoEntrada: {fileID: 1190503292}

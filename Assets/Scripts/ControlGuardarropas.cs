@@ -4,14 +4,14 @@ using System.Collections;
 public class ControlGuardarropas : MonoBehaviour
 {
     [Header("Configuración")]
-    [SerializeField] private int maxEntradasAntesDeBloqueo = 3;
+    [SerializeField] private int maxEntradasPermitidas = 3;
     [SerializeField] private float tiempoDeBloqueo = 5f;
 
     [Header("Referencias")]
     [SerializeField] private GameObject cartelAdvertencia;
     [SerializeField] private GameObject bloqueoEntrada;
 
-    private int cantidadEntradas = 0;
+    private int cantidadEntradasTotal = 0;
     private bool entradaBloqueada = false;
 
     void Start()
@@ -23,18 +23,22 @@ public class ControlGuardarropas : MonoBehaviour
         // El bloqueo físico empieza apagado
         if (bloqueoEntrada != null)
             bloqueoEntrada.SetActive(false);
+
+        cantidadEntradasTotal = 0;
+        entradaBloqueada = false;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (!other.CompareTag("Player")) return;
 
-        if (entradaBloqueada)
-            return;
+        if (entradaBloqueada) return;
 
-        cantidadEntradas++;
+        cantidadEntradasTotal++;
 
-        if (cantidadEntradas > maxEntradasAntesDeBloqueo)
+        Debug.Log("Entradas al guardarropas: " + cantidadEntradasTotal);
+
+        if (cantidadEntradasTotal > maxEntradasPermitidas)
         {
             StartCoroutine(BloquearEntrada());
         }
@@ -44,7 +48,6 @@ public class ControlGuardarropas : MonoBehaviour
     {
         entradaBloqueada = true;
 
-        // El cartel ya está visible, pero lo dejamos por seguridad
         if (cartelAdvertencia != null)
             cartelAdvertencia.SetActive(true);
 
@@ -56,9 +59,10 @@ public class ControlGuardarropas : MonoBehaviour
         if (bloqueoEntrada != null)
             bloqueoEntrada.SetActive(false);
 
-        // No apagamos el cartel porque debe quedar visible siempre
+        // Importante:
+        // NO reiniciamos cantidadEntradasTotal.
+        // Así, después de la cuarta entrada, cada nuevo intento vuelve a bloquear.
 
-        cantidadEntradas = 0;
         entradaBloqueada = false;
     }
 }
