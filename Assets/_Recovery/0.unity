@@ -7727,6 +7727,7 @@ MonoBehaviour:
   - {fileID: 1682691025}
   - {fileID: 796794489}
   - {fileID: 300843266}
+  totalMisiones: 3
   limiteTiempoSegundos: 180
 --- !u!4 &879108378
 Transform:
@@ -13883,8 +13884,8 @@ GameObject:
   - component: {fileID: 1545734680}
   - component: {fileID: 1545734681}
   - component: {fileID: 1545734683}
-  - component: {fileID: 1545734682}
   - component: {fileID: 1545734684}
+  - component: {fileID: 1545734682}
   m_Layer: 0
   m_Name: ExclamacionAbuelo
   m_TagString: Untagged

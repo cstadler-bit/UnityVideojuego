@@ -182,19 +182,13 @@ public class GestionMisionAbuelo : MonoBehaviour
 
         StartCoroutine(MostrarCartelPorTiempo());
 
-        EvolucionGladys evo = GetComponent<EvolucionGladys>();
+       EvolucionAbuelo evo = GetComponent<EvolucionAbuelo>();
 
         if (evo != null)
         {
-            evo.ForzarCaraFeliz();
+        evo.ForzarCaraFeliz();
         }
-
-        if (GameManager.Instance != null)
-        {
-            GameManager.Instance.RegistrarMisionCumplida();
-        }
-    }
-
+}
     IEnumerator MostrarCartelPorTiempo()
     {
         if (cartelMisionCumplida != null)
