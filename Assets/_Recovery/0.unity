@@ -13996,14 +13996,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1545734678}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ac72914c34ed814d84f50205826ba57, type: 3}
+  m_Script: {fileID: 11500000, guid: a7a551a527a8b4347bd67cc6c656d325, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EvolucionGladys
+  m_EditorClassIdentifier: Assembly-CSharp::EvolucionAbuelo
   filtroRojoUI: {fileID: 1932817406}
   fondoIncognito: {fileID: 1634851961}
   caraFelizUI: {fileID: 467619590}
   caraPreocupadaUI: {fileID: 1913923816}
   caraEnojadaUI: {fileID: 203677333}
+  tiempoParaPreocupado: 35
+  tiempoParaEnojado: 70
+  tiempoParaFinal: 100
 --- !u!1 &1571294192
 GameObject:
   m_ObjectHideFlags: 0
